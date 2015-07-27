@@ -1,3 +1,9 @@
+/*!
+ * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Copyright 2015 Start Bootstrap
+ * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -162,8 +168,8 @@ hr.small {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
-  line-height: 1.1;
-  display: block;
+  line-height: 1.1,
+			display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
@@ -394,4 +400,33 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+form#contact-form > div {
+  width: 100%;
+}
+form#contact-form > div > input#email-address {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+form#contact-form > div > textarea {
+  resize: none;
+}
+form#contact-form > div > input#submit-button {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+form#contact-form  > div  > input,
+form#contact-form  > div  > textarea {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+div#contact-response {
+  display: none;
+  transition: 0.5s ease-in;
 }

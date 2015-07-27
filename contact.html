@@ -5,35 +5,18 @@ description: "Have questions? I have answers (maybe)."
 header-img: "img/contact-bg.jpg"
 ---
 
-<style type="text/css">
-    form > div { width: 100%; }
-    form > div > input,
-    form > div > textarea {
-        display: block;
-        font-size: 24px;
-        margin-top: 0;
-        margin-bottom: 0;
-        width: 100%;
-    }
-    form > div > input#email-address {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-    form > div > textarea { resize: none; }
-    form > div > input#submit-button {
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-</style>
-<p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you as soon as possible.</p>
-<form id="contact-form" action="//formspree.io/sfballais123@gmail.com" method="POST">
-    <div class="input-group">
-        <input id="email-address" type="email" class="form-control input-lg" name="_replyto" placeholder="Email address">
-        <textarea class="form-control input-lg custom-control" rows="3" placeholder="Your message..."></textarea>
-        <input id="submit-button" type="submit" class="btn btn-success" value="Send">
-    </div>
-</form> 
+<div id="contact-response"></div>
+<div id="contact">
+    <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you as soon as possible.</p>
+    <form id="contact-form">
+        <div class="input-group">
+            <input id="email-address" type="email" class="form-control input-lg" name="_replyto" placeholder="Email address">
+            <textarea class="form-control input-lg custom-control" rows="5" placeholder="Your message..."></textarea>
+            <!-- Formspree configuration -->
+            <input type="hidden" name="_subject" value="Someone contacted you through your site!"/>
+            <input type="text" name="_gotcha" style="display:none"/>
+            <!-- End of formspree configuration -->
+            <input id="submit-button" type="submit" class="btn btn-success" value="Send">
+        </div>
+    </form>
+</div>
