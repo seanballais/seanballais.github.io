@@ -433,3 +433,6 @@ div#contact-response {
   display: none;
   transition: 0.5s ease-in;
 }
+div#disqus_thread {
+  margin-top: 3%;
+}
