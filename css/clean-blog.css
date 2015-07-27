@@ -436,3 +436,6 @@ div#contact-response {
 div#disqus_thread {
   margin-top: 3%;
 }
+a#protected-email {
+  text-decoration: underline;
+}
