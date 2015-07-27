@@ -401,6 +401,9 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+form#contact-form {
+  margin-bottom: 2%;
+}
 form#contact-form > div {
   width: 100%;
 }
