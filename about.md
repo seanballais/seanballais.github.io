@@ -8,7 +8,7 @@ header-img: "img/about/about-bg.jpg"
 
 Hi! I’m Sean and I hack code. I hack code in C/C++, C#, Python, HTML5, CSS3, and Javascript. There, satisfied? Clearly, no. It’s too brief for an About page. So, I’ll elaborate more.
 
-First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was hit by Super Typhoon Haiyan way back in November 8, 2013. Yeah, but that’s another story for a another blog post). I’m an alumni (Batch 2015) of Philippine Science High School Eastern Visayas Campus. I’m currently enrolled in University of the Philippines Visayas Tacloban College.
+First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was hit by Super Typhoon Haiyan way back in November 8, 2013. Yeah, but that’s another story for a another blog post).
 
 ![A picture of me](/static/img/about/me.jpg)
 
