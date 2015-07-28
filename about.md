@@ -8,6 +8,8 @@ header-img: "img/about-bg.jpg"
 
 Hi! I’m Sean and I hack code. I hack code in C/C++, C#, Python, HTML5, CSS3, and Javascript. There, satisfied? Clearly, no. It’s too brief for an About page. So, I’ll elaborate more.
 
+![A picture of me](/static/img/me.jpg "One of the rare times I have to wear formally/")
+
 First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was hit by Super Typhoon Haiyan way back in November 8, 2013. But that’s another story for a another blog post). I’m an alumni (Batch 2015) of Philippine Science High School Eastern Visayas Campus. I’m currently enrolled in University of the Philippines Visayas Tacloban College.
 
 As mentioned before, I am a code hacker, better known as a (hobbyist) programmer. I have experience programming in C/C++, Python, HTML5, CSS3, and JavaScript. But I have dabbled with Visual Basic (including the .Net version), C#, BASIC-256, Perl, PHP, and Ruby before. When I'm programming, you'll usually see me with Sublime Text, a terminal window, Geary, Firefox (or Chrome depending on the situation) and XChat opened because that's how I program. I also have Nemiver opened in certain occasions. When I have the time, I might learn Haskell, Go, and Node.JS just to add something to my toolbox. If you have additional technologies you want me to try and learn, just email them to me or comment them below. I’ll appreciate it.
