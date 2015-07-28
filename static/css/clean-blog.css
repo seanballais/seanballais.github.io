@@ -436,3 +436,11 @@ img {
 div.social-links {
   margin-top: 2%;
 }
+img#navbar-logo {
+  border-radius: 25px;
+  display: inline;
+  margin-right: 5px;
+  height: 100%:
+	width: 100%;
+  vertical-align: middle;
+}
