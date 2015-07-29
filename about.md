@@ -24,7 +24,7 @@ Whenever I’m not coding, I would sometimes be seen playing sports and hanging 
 
 ![One of my sample arts](/static/img/about/art-sample.jpg)
 
-If, for reasons I cannot debug, you want track my bits and bytes, you can trace me back to the Twitters of the interwebs at [@seanballais](https://www.twitter.com/seanballais). If tracing, I mean, tweeting ain’t your thing, you can still reach me via my [email]({{site.url}}/contact/). You can also ask me questions via [Ask.fm](https://ask.fm/sfballais123). I also have a professional profile set up over at [LinkedIn](https://www.linkedin.com/in/seanballais). You can also find me on [Reddit](https://www.reddit.com/user/seanballais). For those people who would like to view my online portfolio, it’s hosted in [Coderbits](http://www.coderbits.com/sfballais123).
+If, for reasons I cannot debug, you want track my bits and bytes, you can trace me back to the Twitters of the interwebs at [@seanballais](https://www.twitter.com/seanballais). If tracing, I mean, tweeting ain’t your thing, you can still reach me via my [email]({{site.url}}/contact/). You can also ask me questions via [Ask.fm](https://ask.fm/sfballais123). I also have a professional profile set up over at [LinkedIn](https://www.linkedin.com/in/seanballais). In conjunction with my LinkedIn profile, I also have a [Stack Overflow Careers](http://careers.stackoverflow.com/seanballais) profile. You can also find me on [Reddit](https://www.reddit.com/user/seanballais). For those people who would like to view my online portfolio, it’s hosted in [Coderbits](http://www.coderbits.com/sfballais123).
 
 ### What’s this website about?
 
