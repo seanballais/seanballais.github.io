@@ -1,0 +1,21 @@
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@seanballais">
+<meta name="twitter:creator" content="@seanballais">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.subtitle }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.header-img %}
+  <meta name="twitter:image:src" content="/static/{{ page.header-img }}">
+{% else %}
+  <meta name="twitter:image:src" content="/static/img/home-bg.jpg">
+{% endif %}
