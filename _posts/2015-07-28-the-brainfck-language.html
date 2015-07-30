@@ -6,17 +6,18 @@ date:       2015-07-30 13:51
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/the-brainfck-language/
 header-img: "img/posts/the-brainfck-language/header.jpg"
+comments: true
 ---
 
-Programming languages were developed to ease the development of applications for computers. They ease development of projects, save time, and have a good return of investment. But there are languages designed to just f*ck with your brain. They want you to be mindblown by their rather peculiar syntax. A notable example, and also the highlight of this article, is Brainf*ck.
+<p>Programming languages were developed to ease the development of applications for computers. They ease development of projects, save time, and have a good return of investment. But there are languages designed to just f*ck with your brain. They want you to be mindblown by their rather peculiar syntax. A notable example, and also the highlight of this article, is Brainf*ck.</p>
 
 <img src="/static/img/posts/the-brainfck-language/mindblown.gif" alt="Mindblown!" width="650" height="416">
 
-Brainf*ck was created in 1993 by Urban Miller, a Swiss physics student. He designed the language with being able to implement the smallest compiler possible. Impressively, the language is <a href="http://programmers.stackexchange.com/questions/132385/what-makes-a-language-turing-complete">Turing-complete</a>. The first compiler was coded in machine language which made it as small as 296 bytes. More compilers were developed and the size of many were much lower than 200 bytes, and one is, impressively, just <strong>100</strong> bytes.<br><br>
+<p>Brainf*ck was created in 1993 by Urban Miller, a Swiss physics student. He designed the language with being able to implement the smallest compiler possible. Impressively, the language is <a href="http://programmers.stackexchange.com/questions/132385/what-makes-a-language-turing-complete">Turing-complete</a>. The first compiler was coded in machine language which made it as small as 296 bytes. More compilers were developed and the size of many were much lower than 200 bytes, and one is, impressively, just <strong>100</strong> bytes.</p>
 
-Brainf*ck was not designed to be used for practical purposes, and was rather aimed to challenge and amuse programmers. The language uses a fairly simple machine model. The model consists of the program; an array consisting of 30,000 byte cells all initialized at zero, with a data pointer initialized to the point of the leftmost byte of the array; and two streams for input and output (using ASCII).<br><br>
+<p>Brainf*ck was not designed to be used for practical purposes, and was rather aimed to challenge and amuse programmers. The language uses a fairly simple machine model. The model consists of the program; an array consisting of 30,000 byte cells all initialized at zero, with a data pointer initialized to the point of the leftmost byte of the array; and two streams for input and output (using ASCII).</p>
 
-<strong>The language has a very minimal and simplistic syntax, with only eight commands.</strong>
+<p><strong>The language has a very minimal and simplistic syntax, with only eight commands.</strong>
 <br><br>
 <pre><code>Any character not included below is ignored and can be used for comments.
 
@@ -31,24 +32,24 @@ Brainf*ck was not designed to be used for practical purposes, and was rather aim
      to the bracket.
 ]    if the value of the current cell is zero, move to the next
      instruction. Otherwise, jump to the matching [ bracket.
-</code></pre>
-<br>
-Personally, I initially thought Brainf*ck was very confusing and felt that I won't ever touch it ever even once. That changed when it was during the Independence Day of my country. I wanted to say <i>Happy Independence Day</i> using a programming language. I wanted to challenge myself to create the greeting using an esolang. So, I settled with Brainf*ck with reasons I already forgot.<br><br>
+</code></pre></p>
 
-Grasping the concepts was fairly easy once you convert the weird, complicated descriptions of the commands to something fairly simple, or in layman's terms. The descriptions in the commands in the table above were simplified in layman's terms for the benefit of many.<br><br>
+<p>Personally, I initially thought Brainf*ck was very confusing and felt that I won't ever touch it ever even once. That changed when it was during the Independence Day of my country. I wanted to say <i>Happy Independence Day</i> using a programming language. I wanted to challenge myself to create the greeting using an esolang. So, I settled with Brainf*ck with reasons I already forgot.</p>
+
+<p>Grasping the concepts was fairly easy once you convert the weird, complicated descriptions of the commands to something fairly simple, or in layman's terms. The descriptions in the commands in the table above were simplified in layman's terms for the benefit of many.</p>
 
 <img src="/static/img/posts/the-brainfck-language/success-kid.jpg" alt="Sucess!">
 
-After coding for less than an hour or two, I finally <strong>got</strong> Brainf*ck. My reaction was like of success kid's as pictured above. Here's even the code that I wrote in Brainf*ck for Independence Day.
-<br><br>
+<p>After coding for less than an hour or two, I finally <strong>got</strong> Brainf*ck. My reaction was like of success kid's as pictured above. Here's even the code that I wrote in Brainf*ck for Independence Day.</p>
+
 <pre><code>++++++++++[>++++++>+++++++++>+++>+<<<<-]>>>>.<<<<>>+++++++>++<<++++++++++++.>.+++++++++++++++..+++++++++.>.<<+.>-----------.----------.+.+++++++++++.-----------.+++++++++.----------.+.+++++++++.-----------.++.>.<<-----.>----.++++++++++++++++++++++++.>+.>..
 </code></pre>
-<br>
-This code has been unformatted so that it fits in a single line because the formatted code takes up sixty lines. If you want to see the formatted code, which is way more cleaner and beautiful, here is the <a href="https://gist.github.com/seanballais/12d6706b54a0cacb2f4e">link</a>.<br><br>
 
-Using Brainf*ck was a satisfying experience. It was the closest thing I could get to programming with a machine language at the moment. The language takes away features you usually take for granted in languages like C, and Python. That taught me to appreciate the advances in programming languages that helped programmers create great products, and solve many of the world's problems.<br><br>
+<p>This code has been unformatted so that it fits in a single line because the formatted code takes up sixty lines. If you want to see the formatted code, which is way more cleaner and beautiful, here is the <a href="https://gist.github.com/seanballais/12d6706b54a0cacb2f4e">link</a>.</p>
 
-If you want to try out Brainf*ck, I embedded a modified Brainf*ck interpreter by <a href="https://github.com/eternalthinker/">Rahul Anand</a> for you to use and have fun.
+<p>Using Brainf*ck was a satisfying experience. It was the closest thing I could get to programming with a machine language at the moment. The language takes away features you usually take for granted in languages like C, and Python. That taught me to appreciate the advances in programming languages that helped programmers create great products, and solve many of the world's problems.</p>
+
+<p>If you want to try out Brainf*ck, I embedded a modified Brainf*ck interpreter by <a href="https://github.com/eternalthinker/">Rahul Anand</a> for you to use and have fun.</p>
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="/static/js/brainfcked.js"></script>
 <script type="text/javascript" src="/static/js/brainfck-manager.js"></script>
@@ -87,4 +88,4 @@ Hello World program
         </div>
     </div>
 </div>
-What do you think of Brainf*ck? What's your opinion? Are you gonna try it to amuse your friends? Or are you just gonna pass it for now? Do you have a question to ask? Or do you need some clarifications? Let me know in the comments below.
+<p>What do you think of Brainf*ck? What's your opinion? Are you gonna try it to amuse your friends? Or are you just gonna pass it for now? Do you have a question to ask? Or do you need some clarifications? Let me know in the comments below.</p>
