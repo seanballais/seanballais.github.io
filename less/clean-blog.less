@@ -11,11 +11,16 @@ body {
 
 // -- Typography
 
-p, ul {
+p, p + ul {
 	line-height: 1.5;
 	margin: 30px 0;
 	a {
 		color: #5882cb;
+	}
+	a:hover,
+	a:focus {
+		color: @brand-primary;
+		text-decoration: none;
 	}
 }
 
@@ -260,7 +265,7 @@ hr.small {
 			&:hover,
 			&:focus {
 				color: @brand-primary;
-				text-decoration: underline;
+				text-decoration: none;
 			}
 		}
 	}
@@ -521,21 +526,4 @@ img#navbar-logo {
 	height: 100%:
 	width: 100%;
 	vertical-align: middle;
-}
-
-// Brainf*ck interpreter
-textarea {
-    font-family: Consolas,Monaco,'Lucida Console','Liberation Mono','DejaVu Sans Mono','Bitstream Vera Sans Mono','Courier New', monospace;
-}
-
-#program {
-    line-height: 1.2;
-}
-
-#output {
-    cursor: auto;
-    line-height: 1.1;
-    background: #1C1C1C;
-    color: #E6E6E6;
-    overflow: auto;
 }
