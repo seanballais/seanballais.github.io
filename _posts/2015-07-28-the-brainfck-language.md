@@ -2,7 +2,7 @@
 layout:     post
 title:      "The Brainf*ck Language"
 subtitle:   "An esoteric programming language you might want to wrap around your head"
-date:       2015-07-28 22:27 +0800
+date:       2015-07-30 13:25
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/the-brainfck-language/
 header-img: "img/posts/the-brainfck-language/header.jpg"
@@ -86,5 +86,4 @@ Hello World program
         </div>
     </div>
 </div>
-
 What do you think of Brainf*ck? What's your opinion? Are you gonna try it to amuse your friends? Or are you just gonna pass it for now? Do you have a question to ask? Or do you need some clarifications? Let me know in the comments below.
