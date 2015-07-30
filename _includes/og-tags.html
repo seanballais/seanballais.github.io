@@ -14,14 +14,7 @@
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
-{% if page.subtitle %}
-  <meta content="{{ page.subtitle }}" property="og:description">
-{% else %}
-  <meta content="{{ site.description }}" property="og:description">
-{% endif %}
-{% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-{% endif %}
+<meta content="{{ site.url }}{{ page.url }}" property="og:url">
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about/" property="article:author">
