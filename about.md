@@ -32,4 +32,4 @@ This website is just a place where I blog on many things, and a way for me to ex
 
 This website is powered by Jekyll and GitHub Pages. The code of this website is available at GitHub. The website code and templates are licensed under the MIT license. However, the website articles. and pages are licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license. My own images are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license. You can, however, use any of the images for promotional and commercial purposes if you ask permission from me by [contacting me]({{site.url}}/contact/).
 
-That’s it for now. Now look for the princess, Mario! And don’t forget to comment below anything you want me to add to this About page!
+That’s it for now. Now look for the princess, Mario! And don’t forget to comment below anything you want me to add to this About page, or if you have questions!
