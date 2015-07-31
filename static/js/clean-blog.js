@@ -18,7 +18,7 @@ $(function() {
     $contactForm.submit(function(e) {
         e.preventDefault();
         $.ajax({
-            url: '//formspree.io/sean@seanballais.ml',
+            url: '//formspree.io/sfballais123@gmail.com',
             method: 'POST',
             data: $(this).serialize(),
             dataType: 'json',
@@ -969,7 +969,7 @@ $(document).ready(function() {
 });
 
 // responsive embed videos
-$(document).ready(function () { 
+$(document).ready(function () {
     $('iframe[src*="youtube.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
 	$('iframe[src*="youtube.com"]').addClass('embed-responsive-item');
     $('iframe[src*="vimeo.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
