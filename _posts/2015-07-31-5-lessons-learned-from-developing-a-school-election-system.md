@@ -32,7 +32,7 @@ As mentioned earlier, I lost interest in continuing the app during the time I wa
 
 Fortunately, the friend who requested the app encouraged me enough to finish the project. With that little spark of encouragement, the project was brought to life once more and has seen the light of day. A quote by the late Randy Pausch, a CS professor at Carnegie Mellon University, summarizes what I learned.
 
-> “A lot of people want a shortcut. I find the best shortcut is the long way, which is basically two words: work hard.”
+> “A lot of people want a shortcut. I find the best shortcut is the long way, which is basically two words: work hard.”    
 > \- Randy Pausch (1960 - 2008), [The Last Lecture](http://www.amazon.com/The-Last-Lecture-Hyperion-Books/dp/B005F1QC2Y)
 
 To generalize, if you want to produce good software, never go down the quick and dirty route. Work hard on your project. Even though it might not succeed, at least you'll get a feeling of some form of accomplishment, and a lesson that can help you improve yourself as a programmer, and/or as a person.
