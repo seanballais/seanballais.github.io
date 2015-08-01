@@ -12,7 +12,7 @@ description: "In around mid-March 2015, a friend of mine and batchmate, who was 
 
 In around mid-March 2015, a friend of mine and batchmate, who was my high school's student government (also known as the Student Alliance) president, asked to create an online [election app](https://www.github.com/seanballais/SAElections/) for the school. I reluctantly said yes. Immediately that day, I set out to work.
 
-After a few days of working, I placed the project on hold. Before my friend asked me to create the election app, I was already my making [my entry](https://www.github.com/seanballais/Marky/) for Jeff Atwood's markdown tutorial contest and the deadline was near. I had to make tradeoffs. Unfortunately, I lost the competition. I was really hoping to win at least the *Code Complete 2*, and the *Beautiful Code* books. Oh well, I better save some money then (if you want to donate any of the books I just mentioned or are in Jeff Atwood's [Recommended Reading For Developers](http://blog.codinghorror.com/recommended-reading-for-developers/) to me, just [contact]({{ site.url }}/contact/) me. I'll be exceptionally grateful).
+After a few days of working, I placed the project on hold. Before my friend asked me to create the election app, I was already making [my entry](https://www.github.com/seanballais/Marky/) for Jeff Atwood's markdown tutorial contest and the deadline was near. I had to make tradeoffs. Unfortunately, I lost the competition. I was really hoping to win at least the *Code Complete 2*, and the *Beautiful Code* books. Oh well, I better save some money then (if you want to donate any of the books I just mentioned or are in Jeff Atwood's [Recommended Reading For Developers](http://blog.codinghorror.com/recommended-reading-for-developers/) to me, just [contact]({{ site.url }}/contact/) me. I'll be exceptionally grateful).
 
 I went back to work on it for 2-3 weeks more after submitting my entry to the contest. Sadly, I had put it on hold again because I had to go to Cebu City to take a SAT test. At that point, I lost interest in continuing the project, and just searched for an easier route. A shortcut.
 
@@ -58,7 +58,18 @@ I was finally satisfied. I feel ready for the next adventure.
 
 This experience taught me to be prepared for anything, even for sudden requests. This can make some programmers a bit cranky (or maybe make them do some table flipping). Their hard work wasted for nothing. But we need to do this (okay, maybe not) for the benefit of our clients. We're serving them anyway and make their respective endeavors successful. Who knows? We are probably the reasons why our clients are having a good time. We make them happy, you become happy *\*ka-ching\**. Win-win!
 
-####4) Anticipate The Worst
+####4) Check Before You Apply
+Okay, first of all, this item is shorter than the other items. There, we're good. *On with the show!*
+
+During the last week I spent developing the app, I was making changes to the code. As usual, I always use a version control system for these things, notably Git. I usually have three active branches: the **master** branch for the latest stable code; the **develop** branch for the latest unstable code; and a branch I create when developing features and fixes, and writing a few changes.
+
+However, on one occasion during the week, I forgot to create a branch for the minor changes I was writing in the code. I then discovered that I was making changes on the `develop` branch. I panicked. I don't know what to do. I felt helpless. I can't create a new branch with the changes. I had to push my changes first before checking out a new branch. Helplessly, I pushed the changes to the `develop` branch.
+
+<img class="img-responsive" src="/static/img/posts/5-lessons-learned-from-developing-a-school-election-system/think-before-you-act.jpg" width="864px" height="432px" alt="Think before you act">
+
+Because of this occurrence, I learned to check things first before I apply. This makes sure that we do the right thing, and with less errors. Like what they say, think before you act.
+
+####5) Anticipate The Worst
 On the day before the app will be used by the school, the Commission on Elections of the school held a test run of the app. They had to login using all the accounts that were registered on the day before, and vote.
 
 To authenticate a user, the app would send a AJAX POST request to the server containing the user name, and the password, and the server would check if the user name and password combination was right. It would then send back a 'success' message if authenticated, or a 'failed' message otherwise.
@@ -86,17 +97,6 @@ Once I learned about the problem, I was somehow panicking in the inside. I don't
 After a few minutes of checking my code, I decided to authenticate the combination directly to the server back end (with some modifications to the back end authenticator, of course) and just let the page reload (which would still show the login form if the combination was wrong). The time it would take to authenticate dropped to 2-5 seconds. That's a 75-90% improvement!
 
 This taught me to keep calm, and analyze the problem. In my case, the app chokes when an AJAX request is sent. I had to figure out how to fix it. And that also taught me to anticipate the worst. Anything can happen to your app. It can choke, crash and burn, or do something worse. But if you anticipate the worst, you are more than prepared to solve the dilemma.
-
-####5) Check Before You Apply
-Okay, first of all, this item is shorter than the other items. There, we're good. *On with the show!*
-
-During the last week I spent developing the app, I was making changes to the code. As usual, I always use a version control system for these things, notably Git. I usually have three active branches: the **master** branch for the latest stable code; the **develop** branch for the latest unstable code; and a branch I create when developing features and fixes, and writing a few changes.
-
-However, on one occasion during the week, I forgot to create a branch for the minor changes I was writing in the code. I then discovered that I was making changes on the `develop` branch. I panicked. I don't know what to do. I felt helpless. I can't create a new branch with the changes. I had to push my changes first before checking out a new branch. Helplessly, I pushed the changes to the `develop` branch.
-
-<img class="img-responsive" src="/static/img/posts/5-lessons-learned-from-developing-a-school-election-system/think-before-you-act.jpg" width="864px" height="432px" alt="Think before you act">
-
-Because of this occurrence, I learned to check things first before I apply. This makes sure that we do the right thing, and with less errors. Like what they say, think before you act.
 
 I learned a lot from developing the election app for my high school. It was a nice experience. It helped me become a better person, in general. I hope that these lessons I learned the hard way will help you when you're coding *The Next Big Thing*.
 
