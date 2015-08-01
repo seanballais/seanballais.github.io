@@ -16,7 +16,7 @@ After a few days of working, I placed the project on hold. Before my friend aske
 
 I went back to work on it for 2-3 weeks more after submitting my entry to the contest. Sadly, I had put it on hold again because I had to go to Cebu City to take a SAT test. At that point, I lost interest in continuing the project, and just searched for an easier route. A shortcut.
 
-Eventually, after some encouragement from my friend who requested it, I finally finished the app, with all the requested (even the last minute ones) requests by July 22, 2015 after putting it on hold for nearly 3 weeks. During the development cycle and the days when my app was used, I learned 9 valuable lessons that I think will help me and you improve as a programmer.
+Eventually, after some encouragement from my friend who requested it, I finally finished the app, with all the requested (even the last minute ones) requests by July 22, 2015 after putting it on hold for nearly 3 weeks. During the development cycle and the days when my app was used, I learned 5 valuable lessons that I think will help me and you improve as a programmer.
 
 ####1) Write Your Plan On Paper
 We've been, in one way or another, taught to plan before we code. It's absolutely necessary so that you won't get lost and waste time thinking what feature to add next.
