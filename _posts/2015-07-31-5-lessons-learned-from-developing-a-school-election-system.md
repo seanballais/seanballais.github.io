@@ -72,7 +72,7 @@ Because of this occurrence, I learned to check things first before I apply. This
 ####5) Anticipate The Worst
 On the day before the app will be used by the school, the Commission on Elections of the school held a test run of the app. They had to login using all the accounts that were registered on the day before, and vote.
 
-To authenticate a user, the app would send a AJAX POST request to the server containing the user name, and the password, and the server would check if the user name and password combination was right. It would then send back a 'success' message if authenticated, or a 'failed' message otherwise.
+To authenticate a user, the app would send an AJAX POST request to the server containing the user name, and the password, and the server would check if the user name and password combination was right. It would then send back a 'success' message if authenticated, or a 'failed' message otherwise.
 
 The code of the function that sends the AJAX POST request is like:
 
