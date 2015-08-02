@@ -10,18 +10,18 @@ comments: true
 description: "In around mid-March 2015, a friend of mine and batchmate, who was my high school's student government (also known as the Student Alliance) president, asked to create an online [election app]() for the school. I reluctantly said yes. Immediately that day, I set out to work."
 ---
 
-In around mid-March 2015, a friend of mine and batchmate, who was my high school's student government (also known as the Student Alliance) president, asked to create an online [election app](https://www.github.com/seanballais/SAElections/) for the school. I reluctantly said yes. Immediately that day, I set out to work.
+In around mid-March 2015, a friend of mine and batchmate, who was my high school's student government (also known as the Student Alliance) president, asked me to create an online [election app](https://www.github.com/seanballais/SAElections/) for the school. I reluctantly said yes. Immediately that day, I set out to work.
 
-After a few days of working, I placed the project on hold. Before my friend asked me to create the election app, I was already making [my entry](https://www.github.com/seanballais/Marky/) for Jeff Atwood's markdown tutorial contest and the deadline was near. I had to make tradeoffs. Unfortunately, I lost the competition. I was really hoping to win at least the *Code Complete 2*, and the *Beautiful Code* books. Oh well, I better save some money then (if you want to donate any of the books I just mentioned or are in Jeff Atwood's [Recommended Reading For Developers](http://blog.codinghorror.com/recommended-reading-for-developers/) to me, just [contact]({{ site.url }}/contact/) me. I'll be exceptionally grateful).
+After a few days of working, I placed the project on hold. Before my friend asked me to create the election app, I was already making [my entry](https://www.github.com/seanballais/Marky/) for Jeff Atwood's markdown tutorial contest, and the deadline was near. I had to make tradeoffs. Unfortunately, I lost the competition. I was really hoping to win at least the *Code Complete 2*, and the *Beautiful Code* books. Oh well, I better save some money then (if you want to donate any of the books I just mentioned or are in Jeff Atwood's [Recommended Reading For Developers](http://blog.codinghorror.com/recommended-reading-for-developers/) to me, just [contact]({{ site.url }}/contact/) me. I'll be exceptionally grateful).
 
 I went back to work on it for 2-3 weeks more after submitting my entry to the contest. Sadly, I had put it on hold again because I had to go to Cebu City to take a SAT test. At that point, I lost interest in continuing the project, and just searched for an easier route. A shortcut.
 
-Eventually, after some encouragement from my friend who requested it, I finally finished the app, with all the requested (even the last minute ones) requests by July 22, 2015 after putting it on hold for nearly 3 weeks. During the development cycle and the days when my app was used, I learned 5 valuable lessons that I think will help me and you improve as a programmer.
+Eventually, after some encouragement from my friend who requested the project, I finally finished the app, with all the requested (even the last minute ones) features by July 22, 2015 after putting it on hold for nearly 3 weeks. During the development cycle and the days when my app was used, I learned 5 valuable lessons that I think will all of us improve ourselves as programmers.
 
 ####1) Write Your Plan On Paper
 We've been, in one way or another, taught to plan before we code. It's absolutely necessary so that you won't get lost and waste time thinking what feature to add next.
 
-Making the election app taught me a valuable lesson - write your plan on paper. Right before development started, I planned on how the app will look like, and how it will process input. But the plan was just in my head. I never wrote the plan on paper. This soon proved to be inconvenient. It gave me a feeling of burden, and the project won't be finished. It gave me unnecessary stress. I usually (but not always) write down my plan on paper how the logic will flow in other projects I did. Sadly, I didn't do it on this one.
+Making the election app taught me a valuable lesson - write your plan on paper. Right before development started, I planned on how the app will look like, and how it will process any input. But the plan was just in my head. I never wrote the plan on paper. This soon proved to be inconvenient. It gave me a feeling of burden, and the project won't be finished. It gave me unnecessary stress. I usually (but not always) write down my plan on paper how the logic will flow in other projects I did. Sadly, I didn't do it on this one.
 
 <img class="img-responsive" src="/static/img/posts/5-lessons-learned-from-developing-a-school-election-system/pen-and-paper.jpg" width="550px" height="366px" alt="Write your plan on paper">
 
@@ -32,7 +32,7 @@ As mentioned earlier, I lost interest in continuing the app during the time I wa
 
 Fortunately, the friend who requested the app encouraged me enough to finish the project. With that little spark of encouragement, the project was brought to life once more and has seen the light of day. A quote by the late Randy Pausch, a CS professor at Carnegie Mellon University, summarizes what I learned.
 
-> “A lot of people want a shortcut. I find the best shortcut is the long way, which is basically two words: work hard.”    
+> “A lot of people want a shortcut. I find the best shortcut is the long way, which is basically two words: work hard.”
 > \- Randy Pausch (1960 - 2008), [The Last Lecture](http://www.amazon.com/The-Last-Lecture-Hyperion-Books/dp/B005F1QC2Y)
 
 To generalize, if you want to produce good software, never go down the quick and dirty route. Work hard on your project. Even though it might not succeed, at least you'll get a feeling of some form of accomplishment, and a lesson that can help you improve yourself as a programmer, and/or as a person.
@@ -59,8 +59,6 @@ I was finally satisfied. I feel ready for the next adventure.
 This experience taught me to be prepared for anything, even for sudden requests. This can make some programmers a bit cranky (or maybe make them do some table flipping). Their hard work wasted for nothing. But we need to do this (okay, maybe not) for the benefit of our clients. We're serving them anyway and make their respective endeavors successful. Who knows? We are probably the reasons why our clients are having a good time. We make them happy, you become happy *\*ka-ching\**. Win-win!
 
 ####4) Check Before You Apply
-Okay, first of all, this item is shorter than the other items. There, we're good. *On with the show!*
-
 During the last week I spent developing the app, I was making changes to the code. As usual, I always use a version control system for these things, notably Git. I usually have three active branches: the **master** branch for the latest stable code; the **develop** branch for the latest unstable code; and a branch I create when developing features and fixes, and writing a few changes.
 
 However, on one occasion during the week, I forgot to create a branch for the minor changes I was writing in the code. I then discovered that I was making changes on the `develop` branch. I panicked. I don't know what to do. I felt helpless. I can't create a new branch with the changes. I had to push my changes first before checking out a new branch. Helplessly, I pushed the changes to the `develop` branch.
