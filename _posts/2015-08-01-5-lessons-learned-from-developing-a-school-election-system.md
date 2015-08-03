@@ -7,7 +7,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/5-lessons-learned-from-developing-a-school-election-system/
 header-img: "img/posts/5-lessons-learned-from-developing-a-school-election-system/header.jpg"
 comments: true
-description: "In around mid-March 2015, a friend of mine and batchmate, who was my high school's student government (also known as the Student Alliance) president, asked to create an online [election app]() for the school. I reluctantly said yes. Immediately that day, I set out to work."
+description: "In around mid-March 2015, a friend of mine and batchmate, who was my high school's student government (also known as the Student Alliance) president, asked to create an online election app for the school. I reluctantly said yes. Immediately that day, I set out to work."
 ---
 
 In around mid-March 2015, a friend of mine and batchmate, who was my high school's student government (also known as the Student Alliance) president, asked me to create an online [election app](https://www.github.com/seanballais/SAElections/) for the school. I reluctantly said yes. Immediately that day, I set out to work.
