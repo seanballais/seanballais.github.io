@@ -2,7 +2,7 @@
 layout:     post
 title:      "Comic Strip &#35;1 - I Will Always Love You, Linux"
 subtitle:   "My reaction to the recent release of Windows 10"
-date:       2015-08-02 14:40
+date:       2015-08-03 14:40
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-1-i-will-always-love-you-linux/
 header-img: "img/posts/comic-strip-1-i-will-always-love-you-linux/header.jpg"
