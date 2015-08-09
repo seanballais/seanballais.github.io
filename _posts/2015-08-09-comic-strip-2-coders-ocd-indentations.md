@@ -2,7 +2,7 @@
 layout:     post
 title:      "Comic Strip &#35;2 - Coder's OCD: Indentations"
 subtitle:   "Everything must be exactly aligned properly"
-date:       2015-08-09 14:40
+date:       2015-08-09 18:02
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-2-coders-ocd-indentations/
 header-img: "img/posts/comic-strip-2-coders-ocd-indentations/header.jpg"
@@ -10,7 +10,7 @@ comments: true
 description: "Another comic strip for you guys. I know many programmers can relate to this."
 ---
 
-Another comic strip for you guys. I know many programmers can relate to this.
+Another comic strip for you guys. I'm sure many programmers can relate to this.
 
 ![Coder's OCD: Indentations](/static/img/posts/comic-strip-2-coders-ocd-indentations/comic-strip.png)
 
