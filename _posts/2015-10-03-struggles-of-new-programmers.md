@@ -1,17 +1,20 @@
 ---
 layout:     post
-title:      "Struggles of New Programmers"
+title:      "Struggles of New Programmers (Draft and Incomplete)"
 subtitle:   "Every adventure have bumps on the road"
 date:       2015-10-03 20:36
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/struggles-of-new-programmers/
 header-img: "img/posts/5-lessons-learned-from-developing-a-school-election-system/header.jpg"
 comments: true
-draft: true
 description: "I'm now two months into my BS Computer Science degree in the University of the Philippines Visayas Tacloban College. All is well for me. I find all the CS lab exercises fun and challenging. Unfortunately, many of my fellow classmates seem to struggle in many of the lab exercises. They remind me of the early days I started to learn programming."
 ---
 
-*Author's Message (October 3, 2015): I'm sorry that I wasn't able to write new articles from mid-August to late September. I just entered my first year in college. I have been very busy since then. School work, extra-curricular activities, Math 17, and life (and love life? Haha.) made me busy. I promise to do my best to write articles every month. And this article is dedicated to my classmates. Hi, Komsai Pamily! :) -Sean*
+**NOTE: This post is still a draft and is incomplete. This will still be revised. I accidentally placed this on the main branch.**
+
+*Author's Message:
+October 3, 2015
+I'm sorry that I wasn't able to write new articles from mid-August to late September. I just entered my first year in college. I have been very busy since then. School work, extra-curricular activities, Math 17, and life (and love life? Haha.) made me busy. I promise to do my best to write articles every month. And this article is dedicated to my classmates. Hi, Komsai Pamily! :) -Sean*
 
 I'm now two months into my BS Computer Science degree in the University of the Philippines Visayas Tacloban College. All is well for me. I find all the CS lab exercises fun and challenging. Unfortunately, many of my fellow classmates seem to struggle in many of the lab exercises. They remind me of the early days I started to learn programming.
 
