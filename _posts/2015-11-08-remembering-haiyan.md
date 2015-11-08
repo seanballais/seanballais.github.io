@@ -68,3 +68,5 @@ The days following the onslaught of the typhoon was full of fear, and adventure.
 Haiyan has taught me a valuable lesson. It thought me to appreciate life. To enjoy it even in simplest ways. The typhoon may have brought destruction to Tacloban. It took the lives many. Depressed a lot of people. But the people of Tacloban City will stay strong despite hardships. Despite the lackluster relief aid of the government, and the clear challenges of the storm's aftermath, the citizens of Tacloban City will never be always rise up, stand, and walk into a brighter future. Mabuhay!
 
 *To all the NGOs that helped Tacloban City recover from the disaster, thanks a lot! Thanks for helping us get back on our feet, and rise. Without your support, Tacloban City would have been different than it is today.*
+
+**Credits to Patrick Cabañero for letting me use one of his Haiyan photos as this article's header image.**
