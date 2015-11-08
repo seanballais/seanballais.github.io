@@ -2,7 +2,7 @@
 layout:     post
 title:      "Remembering Haiyan"
 subtitle:   "Remembering my experiences during and after the onslaught of Typhoon Haiyan in Tacloban City."
-date:       2015-11-07 20:24
+date:       2015-11-08 20:21
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/remembering-haiyan/
 header-img: "img/posts/remembering-haiyan/header.jpg"
