@@ -36,6 +36,7 @@ In order for us to be safe, we went to the first floor of the building. Near the
 When we were finally on the first floor, we noticed that there was flood water, and it was rising fast. We didn't know why it began flooding. I sat on a chair waiting for the storm to stop. I didn't know what to do. I was wondering what was happening outside. The wind was stopping, and going in huge bursts. The rain was still turning everything white. A glass broke again, and the doors were shut. It was a scary time. The winds kept screaming in a ghostly with the sound of a jet plane engine. I could hear my niece crying in the corner.
 
 While waiting for the storm to stop, an awkward (maybe hilarious) "conversation" occurred.
+
 > Me: (wind seems to calm down) Ah. Fortunately, the storm will be over in a few minutes.
 > Haiyan: That's where you're wrong b*tch! (wind intensifies)
 
