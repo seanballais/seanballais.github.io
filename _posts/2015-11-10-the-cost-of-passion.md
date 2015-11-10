@@ -20,7 +20,7 @@ One of the things that I learned from pursuing my passions is that you'll sacrif
 
 I am passionate of photography, videography, and digital art. Because of that passion, I decided to join UP Lente, a photography and videography interest group here in the University of the Philippines Visayas Tacloban Campus. I do enjoy working in the group. I've learned new things, and gained new insights on the art of photography and videography. Nonetheless, I did pay the price of joining UP Lente.
 
-![Tree branch shot](/static/img/posts/the-cost-of-passion/photography.jpeg)
+![Tree branch shot](/static/img/posts/the-cost-of-passion/photography.jpg)
 
 I became distant to my fellow coursemates of the same year level. Not realizing that moment, I started to no longer know the people I see almost every day. Things changed. Something changed in my fellow coursemates. Most likely something changed in me. I have no clue on what happened. It just happened. I was left behind. People that you used to enjoy talking with personally, now resort to talking with you over Facebook. It's faceless. The thrill is no longer. Add also to the fact that you can just be "*seenzoned*". You don't know what you did. Your efforts of reconnecting to them just seems to make matters worse. They're now somebody that you used to know.
 
