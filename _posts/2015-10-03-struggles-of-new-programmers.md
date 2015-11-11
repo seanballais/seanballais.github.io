@@ -7,6 +7,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/struggles-of-new-programmers/
 header-img: "img/posts/5-lessons-learned-from-developing-a-school-election-system/header.jpg"
 comments: true
+draft: true
 description: "I'm now two months into my BS Computer Science degree in the University of the Philippines Visayas Tacloban College. All is well for me. I find all the CS lab exercises fun and challenging. Unfortunately, many of my fellow classmates seem to struggle in many of the lab exercises. They remind me of the early days I started to learn programming."
 ---
 

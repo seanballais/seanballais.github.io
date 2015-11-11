@@ -7,7 +7,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/the-cost-of-passion/
 header-img: "img/posts/the-cost-of-passion/header.jpg"
 comments: true
-description: "There are things we must sacrifice."
+description: "Every person has a passion for something. May be it reading books, dancing, or, in my case, programming. Having a passion is nice. It's one of the things that makes you enjoy life despite its sometimes harsh realities. However, as it with everything, there is a price to pay in exchange."
 ---
 
 *DISCLAIMER: This article is about what I learned from focusing on things I am passionate about. This is purely based on my personal opinion and experiences, and may be different among people. I apologize in advance to those who were offended/affected by this article.*
