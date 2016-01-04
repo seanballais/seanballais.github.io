@@ -2,7 +2,7 @@
 title: Sean Ballais
 header-img: img/home-bg.jpg
 email: sfballais123@gmail.com
-description: "The personal website of Sean Francis N. Ballais"
+description: "Coder, Blogger, Student"
 baseurl: ""
 url: "http://seanballais.github.io"
 twitter_username: seanballais
@@ -20,3 +20,4 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
