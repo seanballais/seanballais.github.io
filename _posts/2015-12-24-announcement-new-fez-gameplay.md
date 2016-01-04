@@ -7,6 +7,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  "/blog/announcement-new-fez-gameplay/"
 header-img: "img/posts/announcement-new-fez-gameplay/header.png"
 comments: true
+type: comment
 description: "And oh look! It's Fez! I mean Gomez! I mean...uh! I should go back and play Fez now (or code)."
 ---
 

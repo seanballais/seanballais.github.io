@@ -7,6 +7,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-2-coders-ocd-indentations/
 header-img: "img/posts/comic-strip-2-coders-ocd-indentations/header.jpg"
 comments: true
+type: comic
 description: "Another comic strip for you guys. I know many programmers can relate to this."
 ---
 
