@@ -144,7 +144,7 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -214,43 +214,73 @@ hr.small {
     font-size: 30px;
   }
 }
-.post-preview > a {
-  color: #404040;
+#intro {
+  padding-bottom: 15px;
+  font-size: 20px;
 }
-.post-preview > a:hover,
-.post-preview > a:focus {
-  text-decoration: none;
-  color: #025b6f;
+#blog-title {
+  font-size: 25px;
+  font-weight: 800;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
-.post-preview > a > .post-title {
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+#content-coming {
+  font-size: 25px;
+  font-weight: 800;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
-.post-preview > a > .post-subtitle {
-  margin: 0;
-  font-weight: 300;
-  margin-bottom: 10px;
+.post-preview {
+  background: no-repeat center center;
+  background-color: #808080;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  height: 300px;
+  position: relative;
+  padding: 0;
 }
-.post-preview > .post-meta {
-  color: #808080;
+.post-preview > div#contents {
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 7%;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-filter: brightness(1);
+  -moz-filter: brightness(1);
+  -o-filter: brightness(1);
+  -ms-filter: brightness(1);
+  filter: brightness(1);
+}
+.post-preview > div#contents > .post-title {
+  font-size: 20px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+.post-preview > div#contents > span.post-meta {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
-.post-preview > .post-meta > a {
-  text-decoration: none;
-  color: #404040;
+#darken {
+  background-color: black;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-.post-preview > .post-meta > a:hover,
-.post-preview > .post-meta > a:focus {
-  color: #025b6f;
-  text-decoration: none;
+.post-preview:hover #darken {
+  opacity: 0.3;
 }
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 36px;
-  }
+.view-all {
+  display: inline;
 }
 .section-heading {
   font-size: 36px;
@@ -268,13 +298,16 @@ hr.small {
   border-bottom-left-radius: 5px;
 }
 footer {
+  background-color: #2e2e2e;
   padding: 50px 0 65px;
 }
 footer .list-inline {
+  color: white;
   margin: 0;
   padding: 0;
 }
 footer .copyright {
+  color: white;
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;

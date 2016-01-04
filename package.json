@@ -1,12 +1,12 @@
 {
-    "name": "clean-blog",
-    "title": "Clean Blog",
-    "version": "1.0.0",
-    "homepage": "http://startbootstrap.com",
-    "author": "Start Bootstrap",
+    "name": "sean-ballais",
+    "title": "Sean Ballais",
+    "version": "1.1.0",
+    "homepage": "http://seanballais.github.io",
+    "author": "Sean Ballais",
     "license": {
-        "type": "Apache 2.0",
-        "url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
+        "type": "MIT",
+        "url": "https://github.com/seanballais/seanballais.github.io/blob/master/LICENSE"
     },
     "devDependencies": {
         "grunt": "~0.4.5",
@@ -17,6 +17,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
+        "url": "https://github.com/seanballais/seanballais.github.io.git"
     }
 }
