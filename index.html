@@ -5,24 +5,27 @@ header-img: "img/home-bg.jpg"
 ---
 
 <div class="intro">
-
+    Hi! I'm Sean.
 </div>
 
 <div class="row">
     {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="post-preview col-lg-3" style="background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
-            <div>
+            <div id="darken">&nbsp;</div>
+            <div id="contents">
                 <span class="post-title">{{ post.title }}</span><br>
                 <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
             </div>
         </div>
     </a>
     {% endfor %}
-</div>
-
-<div class="view-all">
-    <p>
-        <a href="{{ site.baseurl }}/blog">View all...</a>
-    </p>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="post-preview col-lg-3" style="background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/img/view-all.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/img/view-all.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/img/view-all.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/img/view-all.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('{{ site.baseurl }}/static/img/view-all.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+            <div id="darken">&nbsp;</div>
+            <div id="contents">
+                <span class="post-title">View more articles</span><br>
+            </div>
+        </div>
+    </a>
 </div>

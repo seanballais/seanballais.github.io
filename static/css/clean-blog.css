@@ -225,21 +225,43 @@ hr.small {
   color: white;
   height: 300px;
   position: relative;
+  padding: 0;
 }
-.post-preview div {
+.post-preview > div#contents {
   bottom: 0;
   position: absolute;
   padding-bottom: 7%;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-filter: brightness(1);
+  -moz-filter: brightness(1);
+  -o-filter: brightness(1);
+  -ms-filter: brightness(1);
+  filter: brightness(1);
 }
-.post-preview div > .post-title {
+.post-preview > div#contents > .post-title {
   font-size: 20px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
-.post-preview div > span.post-meta {
+.post-preview > div#contents > span.post-meta {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
+}
+#darken {
+  background-color: black;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.post-preview:hover #darken {
+  opacity: 0.3;
 }
 .view-all {
   display: inline;
@@ -260,13 +282,16 @@ hr.small {
   border-bottom-left-radius: 5px;
 }
 footer {
+  background-color: #2e2e2e;
   padding: 50px 0 65px;
 }
 footer .list-inline {
+  color: white;
   margin: 0;
   padding: 0;
 }
 footer .copyright {
+  color: white;
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
