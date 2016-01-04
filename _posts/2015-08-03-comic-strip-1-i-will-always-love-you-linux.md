@@ -7,7 +7,6 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-1-i-will-always-love-you-linux/
 header-img: "img/posts/comic-strip-1-i-will-always-love-you-linux/header.jpg"
 comments: true
-type: comic
 description: "With the recent release of Windows 10, many of my friends have upgraded to the new version and posted their updates on Facebook. I could feel their excitement. What's my reaction to the release? Well, it's better expressed through the comic strip below."
 ---
 
