@@ -1,9 +1,3 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -220,43 +214,35 @@ hr.small {
     font-size: 30px;
   }
 }
-.post-preview > a {
-  color: #404040;
+.post-preview {
+  background: no-repeat center center;
+  background-color: #808080;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  height: 300px;
+  position: relative;
 }
-.post-preview > a:hover,
-.post-preview > a:focus {
-  text-decoration: none;
-  color: #025b6f;
+.post-preview div {
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 7%;
 }
-.post-preview > a > .post-title {
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+.post-preview div > .post-title {
+  font-size: 20px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
 }
-.post-preview > a > .post-subtitle {
-  margin: 0;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-.post-preview > .post-meta {
-  color: #808080;
+.post-preview div > span.post-meta {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
-.post-preview > .post-meta > a {
-  text-decoration: none;
-  color: #404040;
-}
-.post-preview > .post-meta > a:hover,
-.post-preview > .post-meta > a:focus {
-  color: #025b6f;
-  text-decoration: none;
-}
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 36px;
-  }
+.view-all {
+  display: inline;
 }
 .section-heading {
   font-size: 36px;

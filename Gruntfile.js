@@ -5,8 +5,8 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
             main: {
-                src: 'static/js/<%= pkg.name %>.js',
-                dest: 'static/js/<%= pkg.name %>.min.js'
+                src: 'static/js/clean-blog.js',
+                dest: 'static/js/clean-blog.min.js'
             }
         },
         less: {
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                     paths: ["static/css"]
                 },
                 files: {
-                    "static/css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
+                    "static/css/clean-blog.css": "less/clean-blog.less"
                 }
             },
             minified: {
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
                     cleancss: true
                 },
                 files: {
-                    "static/css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
+                    "static/css/clean-blog.min.css": "less/clean-blog.less"
                 }
             }
         },
@@ -40,13 +40,13 @@ module.exports = function(grunt) {
                     banner: '<%= banner %>'
                 },
                 files: {
-                    src: ['static/css/<%= pkg.name %>.css', 'static/css/<%= pkg.name %>.min.css', 'static/js/<%= pkg.name %>.min.js']
+                    src: ['static/css/clean-blog.css', 'static/css/clean-blog.min.css', 'static/js/clean-blog.min.js']
                 }
             }
         },
         watch: {
             scripts: {
-                files: ['static/js/<%= pkg.name %>.js'],
+                files: ['static/js/clean-blog.js'],
                 tasks: ['uglify'],
                 options: {
                     spawn: false,
