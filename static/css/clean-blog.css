@@ -292,7 +292,7 @@ hr.small {
   padding-right: 25px;
 }
 .post-blog {
-  height: 100px;
+  height: 125px;
 }
 .post-preview:hover #darken {
   opacity: 0.3;
@@ -300,7 +300,7 @@ hr.small {
 .view-all {
   display: inline;
 }
-#contents {
+#blog-contents {
   padding-top: 10px;
   height: 100%;
   -webkit-transition: all 0.3s ease;
@@ -309,8 +309,16 @@ hr.small {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-div.post-blog:hover #contents {
+div.post-blog:hover #blog-contents {
   background-color: #c8c8c8;
+}
+.blog-post-meta {
+  font-size: 15px;
+  font-style: oblique;
+}
+.subtitle {
+  font-size: 17px;
+  padding-top: 5px;
 }
 .section-heading {
   font-size: 36px;
