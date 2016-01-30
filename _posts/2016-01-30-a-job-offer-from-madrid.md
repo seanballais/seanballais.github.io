@@ -32,7 +32,7 @@ The rejection was simply a reply to the message in the email. No formal letters.
 As it can be derived from the email message itself, I have two reasons why I rejected the offer.
 
 * **Education is a priority**    
-Even though I have been programming for nearly 5 years already, I still feel my knowledge is inadequate. I feel that I am a [phony](http://www.hanselman.com/blog/ImAPhonyAreYou.aspx). There are still many topics to learn - may it be science, mathematics, or humanities.
+Even though I have been programming for nearly 5 years already, I still feel my knowledge is inadequate. I feel that I am a [phony](http://www.hanselman.com/blog/ImAPhonyAreYou.aspx). There are still many topics to learn - may it be science, mathematics, or humanities. I will also missed my friends from the University of the Philippines Visayas Tacloban College if I took the offer.
 
 * **Just founded a startup**    
 I have founded a startup, called [Creatomiv](https://www.facebook.com/CreatomivStudios/), in late December 2015 together with two high school friends. Aside from being designated as CTO of the startup, we are already working on a project that I find really fun and enjoyable. If I took the offer, I might not be able to focus on the project we are already working on.
