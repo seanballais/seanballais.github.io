@@ -17,6 +17,7 @@ highlighter: pygments
 permalink: pretty
 paginate: 3
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+future: true
 
 gems:
   - jekyll-sitemap
