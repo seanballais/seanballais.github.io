@@ -2,10 +2,10 @@
 layout:     post
 title:      "A Job Offer from Madrid"
 subtitle:   "What a surprise for me"
-date:       2016-01-30 22:00
+date:       2016-01-30 21:48
 author:     "Sean Francis N. Ballais"
 permalink:  "/blog/a-job-offer-from-madrid/"
-header-img: "img/posts/why-linux/header.jpg"
+header-img: "img/posts/a-job-offer-from-madrid/header.jpg"
 comments: true
 description: "On January 15, 2016, a peculiar email dropped in my inbox. I received a message from a Developer Relations Engineer in source{d}, a company based in Madrid, Spain (I did not mention his name for his safety)."
 ---
