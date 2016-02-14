@@ -6,19 +6,19 @@ description: "Who is Sean?"
 header-img: "img/about/about-bg.jpg"
 ---
 
-Hi! I’m Sean and I hack code. I hack code in C/C++, C#, Python, HTML5, CSS3, and Javascript. There, satisfied? Clearly, no. It’s too brief for an About page. So, I’ll elaborate more.
+Hi! I’m Sean and I hack code. I hack code in C/C++, Python, HTML5, and CSS3. There, satisfied? Clearly, no. It’s too brief for an About page. So, I’ll elaborate more.
 
-First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was [hit by Super Typhoon Haiyan](/blog/remembering-haiyan/) way back in November 8, 2013).
+First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was [hit by Super Typhoon Haiyan](/blog/remembering-haiyan/) way back in November 8, 2013). I currently study in University of the Philippines Visayas Tacloban College majoring in B.S. Computer Science.
 
 ![A picture of me](/static/img/about/me.jpg)
 
 As mentioned before, I am a coder, better known as a (hobbyist) programmer. I have experience programming in C/C++, Python, HTML5, CSS3, and JavaScript. But I have dabbled with Visual Basic (including the .Net version), C#, BASIC-256, Perl, PHP, and Ruby before. When I have the time, I might learn Haskell, Go, and Node.JS just to add something to my toolbox. If you have additional technologies you want me to try and learn, just email them to me or comment them below. I’ll appreciate it.
 
-As with many other programmers, I am also political in terms of operating system preference. Honestly, I prefer working with a UNIX-based system, most notably Linux or OS X, than working with a Windows machine. Windows just doesn’t give me enough power and flexibility in my opinion. It was a different case way back around early 2011 that I find programming in Windows easier and more preferable. I also advocate the use of open source technologies, because open source is awesome.
+As with many other programmers, I am also political in terms of operating system preference. Honestly, I [prefer working with a UNIX-based system](/blog/why-linux/), most notably Linux or OS X, than working with a Windows machine. Windows just doesn’t give me enough power and flexibility in my opinion. It was a different case way back around early 2011 that I find programming in Windows easier and more preferable. I also advocate the use of open source technologies, because open source is awesome.
 
 ![Open source is awesome](/static/img/about/open-source-awesome.png)
 
-Currently, I’m creating a 2D game with my cousins using a custom-made game engine (why not?). It’s still in its early stages and in pre-production.
+Currently, I co-founded a startup called, Creatomiv, with my friends, Warren and Ray Mart. We are being mentored by [Francis Plaza](http://francis.ph/), a graduate from MIT. I have been selected as the startup's CTO. We are currently working on a project we hope to release by March 2016. On the side, I also do some freelance work.
 
 Whenever I’m not coding, I would sometimes be seen playing sports and hanging out with friends; reading books or online articles of any topic that may interest me (IFLS, CommitStrip, Phoronix, PCWorld, and Reddit, anyone?); creating art with GIMP, and/or Blender 3D; listening to podcasts; taking pictures; blogging; keeping up with the latest news; 'hacking' technology; or just pondering ideas for the future.
 
