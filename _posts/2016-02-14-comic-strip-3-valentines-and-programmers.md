@@ -5,7 +5,7 @@ subtitle:   "A Kudos to the Programmers Working in Valentine's Day"
 date:       2016-02-14 16:58
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-3-valentines-and-programmers/
-header-img: "img/posts/comic-strip-3-valentines-and-programmers-header.png"
+header-img: "img/posts/comic-strip-3-valentines-and-programmers/header.png"
 comments: true
 description: "Behind the services you use for Valentine's Day, there are programmers making sure it runs without problems."
 ---
