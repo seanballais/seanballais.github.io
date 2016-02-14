@@ -2,7 +2,7 @@
 layout:     post
 title:      "Comic Strip &#35;3 - Valentine's and Programmers"
 subtitle:   "A Kudos to the Programmers Working in Valentine's Day"
-date:       2016-02-14 14:40
+date:       2016-02-14 16:58
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-3-valentines-and-programmers/
 header-img: "img/posts/comic-strip-3-valentines-and-programmers-header.png"
