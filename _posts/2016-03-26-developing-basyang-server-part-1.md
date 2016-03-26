@@ -2,7 +2,7 @@
 layout:     post
 title:      "Developing Basyang Server Part 1"
 subtitle:   "The experience in developing the server for Basyang"
-date:       2016-03-26 21:48
+date:       2016-03-26 20:49
 author:     "Sean Francis N. Ballais"
 permalink:  "/blog/developing-basyang-server-part-1/"
 header-img: "img/posts/developing-basyang-server-part-1/header.png"
