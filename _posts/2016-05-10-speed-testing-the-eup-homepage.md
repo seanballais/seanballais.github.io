@@ -20,19 +20,21 @@ I also noticed that a few of the images load slowly. This behaviour is quite pec
 
 ### The Speed Test
 
-For the speed test, I used my ASUS X454L laptop running Ubuntu 16.04 (64-bit) and Google Chrome 51.0.2704.84. [Chrome Web Developer Tools](https://developers.google.com/web/tools/chrome-devtools/?hl=en) was used to get the loading times. The download speed of my wifi connection is around 870Kbps from PLDT with a 2 MBps plan. The router used is a PLDT Ultera Home router. I started the test at 4:39 PM and ended at 4:50 PM.
+For the speed test, I used [my ASUS X454L laptop running Ubuntu 16.04](/blog/why-linux/) (64-bit) and Google Chrome 51.0.2704.84. [Chrome Web Developer Tools](https://developers.google.com/web/tools/chrome-devtools/?hl=en) was used to get the loading times. The download speed of my wifi connection is around 870Kbps from PLDT with a 2 MBps plan. The router used is a [PLDT Ultera Home](http://pldthome.com/ultera) router. I started the test at 4:39 PM and ended at 4:50 PM.
 
 I hard loaded the homepage ten times giving me a data set of ten elements where each element is a loading time. I hard loaded the homepage so that the browser would have to redownload every asset (images, javascript files, CSS files, etc.) of the page.
 
 // Insert web developer tools
 
-The exact loading times (in seconds) that I got from the site are (sorted ascendingly) 44.87, 44.89, 44.96, 44.98, 44.99, 45.17, 45.40, 45.67, 45.87, and 46.65. Based on the data that I got, the site fully loads between 44.87s and 46.65s giving us a mean loading time of 45.345s and a median loading time of 45.08s. However, the site can already show the contents within a few seconds.
+The exact loading times (in seconds) that I got from the site are (sorted ascendingly) `44.87`, `44.89`, `44.96`, `44.98`, `44.99`, `45.17`, `45.40`, `45.67`, `45.87`, and `46.65`. Based on the data that I got, the site fully loads between 44.87s and 46.65s giving us a mean loading time of 45.345s and a median loading time of 45.08s. However, the site can already show the contents within a few seconds.
 
 // Insert graph
 
 Given the data, I became curious with the speed of the homepage. The homepage has the potential to probably fully load in less than 30 seconds. I inspected the data Chrome Web Developer Tools has given me. The page is 6.6 MB big. I am suspecting that the cause of this size is the use of a lot of images. So I inspected the files that has long spikes in the resource graph.
 
-I was surprised. The bottleneck of the page are three images that are above the *Visit the Gallery* button. Each of them is around 1.0MB big. Those three images make up 46.97% of the total page size. It is probably best if they compress the three "heavy" images to take up less space and reduce the total page size to probably 3.5 MB. That may depend on the final size of the optimized images.
+// Insert spike
+
+I was surprised. The bottleneck of the page are three images that are above the *Visit the Gallery* button. Each of them is around 1.0MB big. Those three images make up 46.97% of the total page size. It is probably best if they [compress the three "heavy" images to take up less space](https://blog.codinghorror.com/a-comparison-of-jpeg-compression-levels-and-recompression/) and reduce the total page size to probably 3.5 MB. That may depend on the final size of the optimized images.
 
 // Insert three images
 
@@ -44,9 +46,9 @@ After a quick scan of the page source code, I discovered that eUP is using WordP
 
 To be frank, despite the homepage taking nearly two-thirds of a minute to fully load, it is not necessary for them to immediately reduce the page loading time. The page content can already be seen in a few seconds. Generally, the whole site loads fast perception-wise.
 
-In the software development industry, there are some tradeoffs you have to make just to meet the deadline. These tradeoffs may be having to choose to dump a feature, remove cosmetic features, or fixing that annoying bug. These are just some of the possible scenarios. Others may have different scenarios.
+In the software development industry, there are some tradeoffs you have to make just to meet the deadline. These tradeoffs may be having to choose to dump a feature, remove cosmetic features, or [fixing that annoying bug](http://www.joelonsoftware.com/articles/fog0000000014.html). These are just some of the possible scenarios. Others may have different scenarios.
 
-With this in mind, maybe, for the developers of eUP, they have to skip optimizing some assets to finish the other parts of eUP...or maybe not. Who knows? Let us wait and see.
+With this in mind, maybe, for the developers of eUP, [they have to skip optimizing some assets](/blog/5-lessons-learned-from-developing-a-school-election-system/) to finish the other parts of eUP...or maybe not. Who knows? Let us wait and see.
 
 *What do you think of the eUP's homepage loading speed? What do you think of eUP? Do you have any experience with eUP? Or do you have an opinion you want to share? Let us know in the comments below.*
 
