@@ -20,7 +20,7 @@ I also noticed that a few of the images load slowly. This behaviour is quite pec
 
 ### The Speed Test
 
-For the speed test, I used [my ASUS X454L laptop running Ubuntu 16.04](/blog/why-linux/) (64-bit) and Google Chrome 51.0.2704.84. [Chrome Web Developer Tools](https://developers.google.com/web/tools/chrome-devtools/?hl=en) was used to get the loading times. The download speed of my wifi connection is around 870Kbps from PLDT with a 2 MBps plan. The router used is a [PLDT Ultera Home](http://pldthome.com/ultera) router. I started the test at 4:39 PM and ended at 4:50 PM.
+For the speed test, I used [my ASUS X454L laptop running Ubuntu 16.04](/blog/why-linux/) (64-bit) and Google Chrome 51.0.2704.84. I also closed all applications that are running in my system except Chrome and gEdit. [Chrome Web Developer Tools](https://developers.google.com/web/tools/chrome-devtools/?hl=en) was used to get the loading times. The download speed of my wifi connection is around 870Kbps from PLDT with a 2 MBps plan. The router used is a [PLDT Ultera Home](http://pldthome.com/ultera) router. I started the test at 4:39 PM and ended at 4:50 PM.
 
 I hard loaded the homepage ten times giving me a data set of ten elements where each element is a loading time. I hard loaded the homepage so that the browser would have to redownload every asset (images, javascript files, CSS files, etc.) of the page.
 
