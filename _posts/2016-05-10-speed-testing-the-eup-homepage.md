@@ -50,7 +50,7 @@ In the software development industry, there are some tradeoffs you have to make 
 
 With this in mind, maybe, for the developers of eUP, [they have to skip optimizing some assets](/blog/5-lessons-learned-from-developing-a-school-election-system/) to finish the other parts of eUP...or maybe not. Who knows? Let us wait and see.
 
-This does not aim to be a comprehensive speed test. This test only uses the data gathered from Chrome Web Developer Tools. You might get different results with your current setup. With that, I encourage you to perform your own tests and share your results in the comments below.
+**Disclaimer**: This does not aim to be a comprehensive speed test. This test only uses the data gathered from Chrome Web Developer Tools. You might get different results with your current setup or have a different method of testing. With that, I encourage you to perform your own tests and share your results in the comments below.
 
 *What do you think of the eUP's homepage loading speed? What do you think of eUP? Do you have any experience with eUP? Or do you have an opinion you want to share? Let us know in the comments below.*
 
