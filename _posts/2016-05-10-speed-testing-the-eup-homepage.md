@@ -12,7 +12,7 @@ description: ""
 
 Recently, I have read that the university I am currently studying in, University of the Philippines Visayas Tacloban College, will slowly be shifting to use a new system called [eUP](http://e.up.edu.ph/) that provides university functionalities such as student enrollment, and data management that can be accessed by all University of the Philippines campuses in one website. This new system has issues that came along with it but I will not  delve much into that.
 
-This shift made me curious about the website. So, I checked out the website. The homepage seems to load fast. I cannot stop having a cringing feeling on the design. The design is modern to say the least but needs some improvements. I can't help but also notice that sections of the website use images instead of `div`s.
+This shift made me curious about eUP. So, I checked out the website. The homepage seems to load fast. I cannot stop having a cringing feeling on the design. The design is modern to say the least but needs some improvements. I can't help but also notice that sections of the website use images instead of `div`s.
 
 ![I cringe.](/static/img/posts/speed-testing-the-eup-homepage/cringe.jpg)
 
