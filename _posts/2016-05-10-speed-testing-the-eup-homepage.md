@@ -2,7 +2,7 @@
 layout:     post
 title:      "Speed Testing the eUP Homepage"
 subtitle:   "The eUP homepage seems to load fast. But how long does it really fully load?"
-date:       2016-10-05 20:21
+date:       2016-05-12 14:33
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/speed-testing-the-eup-homepage/
 header-img: "img/posts/speed-testing-the-eup-homepage/header.jpg"
