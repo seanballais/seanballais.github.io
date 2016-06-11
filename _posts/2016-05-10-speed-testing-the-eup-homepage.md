@@ -10,8 +10,8 @@ comments: true
 description: ""
 ---
 
-EDIT (June 11, 2016, 2:50 PM): Added a disclaimer.
-EDIT (June 11, 2016, 6:32 PM): Corrected the graph's x axis to use the unsorted loading times. Corrected some grammar. Changed the order of the loading times in a paragraph.
+***EDIT** (June 11, 2016, 2:50 PM): Added a disclaimer.    
+**EDIT** (June 11, 2016, 6:32 PM): Corrected the graph's x axis to use the unsorted loading times. Corrected some grammar. Changed the order of the loading times in a paragraph.*
 
 Recently, I have read that the university I am currently studying in, University of the Philippines Visayas Tacloban College, will slowly be shifting to use a new system called [eUP](http://e.up.edu.ph/) that provides university functionalities such as student enrollment, and data management that can be accessed by all University of the Philippines campuses in one website. This new system has issues that came along with it but I will not  delve much into that.
 
