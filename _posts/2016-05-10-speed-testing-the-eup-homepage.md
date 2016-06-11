@@ -2,13 +2,16 @@
 layout:     post
 title:      "Speed Testing the eUP Homepage"
 subtitle:   "The eUP homepage seems to load fast. But how long does it really fully load?"
-date:       2016-05-12 14:33
+date:       2016-06-11 14:33
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/speed-testing-the-eup-homepage/
 header-img: "img/posts/speed-testing-the-eup-homepage/header.jpg"
 comments: true
 description: ""
 ---
+
+EDIT (June 11, 2016, 2:50 PM): Added a disclaimer.
+EDIT (June 11, 2016, 6:32 PM): Corrected the graph's x axis to use the unsorted loading times. Corrected some grammar. Changed the order of the loading times in a paragraph.
 
 Recently, I have read that the university I am currently studying in, University of the Philippines Visayas Tacloban College, will slowly be shifting to use a new system called [eUP](http://e.up.edu.ph/) that provides university functionalities such as student enrollment, and data management that can be accessed by all University of the Philippines campuses in one website. This new system has issues that came along with it but I will not  delve much into that.
 
@@ -26,7 +29,7 @@ I hard loaded the homepage ten times giving me a data set of ten elements where 
 
 ![Chrome Web Developer Tools](/static/img/posts/speed-testing-the-eup-homepage/web-developer-tools.png)
 
-The exact loading times (in seconds) that I got from the site are (sorted ascendingly) `44.87`, `44.89`, `44.96`, `44.98`, `44.99`, `45.17`, `45.40`, `45.67`, `45.87`, and `46.65`. Based on the data that I got, the site fully loads between 44.87s and 46.65s giving us a mean loading time of 45.345s and a median loading time of 45.08s. However, the site can already show the contents within a few seconds.
+The exact loading times (in seconds) that I got from the site are `46.65`, `44.89`, `45.40`, `45.87`, `44.96`, `45.67`, `45.17`, `44.99`, `44.87`, and `44.98`. Based on the data that I got, the site fully loads between 44.87s and 46.65s giving us a mean loading time of 45.345s and a median loading time of 45.08s. However, the site can already show the contents within a few seconds.
 
 ![Graph](/static/img/posts/speed-testing-the-eup-homepage/chart.png)
 
