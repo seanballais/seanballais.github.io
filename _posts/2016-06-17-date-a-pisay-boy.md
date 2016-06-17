@@ -29,7 +29,7 @@ Date a Pisay boy. Date a Pisay boy for he is adaptable. His rigorous training fr
 
 Date a Pisay boy. Date a Pisay boy for he is bound to achieve amazing feats. He did not study just for the sake of studying. A Pisay boy studies to help him trek to somewhere great. He works hard for what he wants achieve. He is a curious being. Quantum physics, video games, computer science, chemistry, dance, arts, literature, sports, a painting of a meadow, and a lot more that interests him makes him tick may it be inside or outside the classroom.
 
-Date a Pisay boy. Date a Pisay for he will inspire you achieve your goals. He is simple but has a broad imagination complemented by child-like curiousity. Let him take you to his wonderful world, and be astonished and get lost in it.
+Date a Pisay boy. Date a Pisay boy for he will inspire you achieve your goals. He is simple but has a broad imagination complemented by child-like curiousity. Let him take you to his wonderful world, and be astonished and get lost in it.
 
 ![Imagination](/static/img/posts/date-a-pisay-boy/imagination.jpg)
 
