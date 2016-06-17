@@ -2,7 +2,7 @@
 layout:     post
 title:      "Date a Pisay Boy"
 subtitle:   "And he might even be the right one for you"
-date:       2016-06-17 14:33
+date:       2016-06-17 15:06
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/date-a-pisay-boy/
 header-img: "img/posts/date-a-pisay-boy/header.jpg"
