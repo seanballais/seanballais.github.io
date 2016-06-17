@@ -21,15 +21,15 @@ Date a Pisay boy. Date a Pisay boy for he will be simple when you go out. He wil
 
 Date a Pisay boy. Date a Pisay boy for he is independent. Being used to the pressures of being in one of the most prestigious schools in the Philippines, he knows how to manage his time well and cope up with failed marks. When stress hits him, expect thay he will be shooting hoops or play Dota 2 with his friends. There's a good chance that a Pisay boy may be far away from his family. He has to endure homesickness and missing his family.
 
-Date a Pisay boy. Date a Pisay boy for he knows how to value people and his things. Having a math class almost everyday, a Pisay boy knows that his scientific calculator is his life line. He gets a mini-heart attack every time he thought he lost it. Even though a Pisay boy is a busy man, he will still look for ways to spend some time with you. It may come as a conversation thread in Twitter, a long-thought comment in a Facebook post, or a quick casual chat or greeting when you meet each other in a hall (or escalator). His methods may be mundane but he values every second he engages with you. He will do his best to appear calm even though he is nervous deep inside and is thinking of the right words to say to you.
+Date a Pisay boy. Date a Pisay boy for he knows how to value people and his things. Having a math class almost everyday, a Pisay boy knows that his scientific calculator is his life line. He gets a mini-heart attack every time he thought he lost it. Even though a Pisay boy is a busy man, he will still look for ways to spend some time with you. It may come as a conversation thread in Twitter, a long-thought comment in a Facebook post, or a quick casual chat or greeting when you meet each other in a hall. His methods may be mundane but he values every second he engages with you. He will do his best to appear calm even though he is nervous deep inside and is thinking of the right words to say to you.
 
 <img src="/static/img/posts/date-a-pisay-boy/spongegar.jpg" width="500" height="308">
 
-Date a Pisay boy. Date a Pisay boy for he is adaptable. His rigorous training from *that* prestigious school allows him to hone his skills in adapting between shifting schedules, working on projects and papers, and managing his time with extra-curricular activities. He will try his best to speak your 'language,' and keep up with craziness.
+Date a Pisay boy. Date a Pisay boy for he is adaptable. His rigorous training from *that* prestigious school allows him to hone his skills in adapting between shifting schedules, working on projects and papers, and managing his time with extra-curricular activities. He will try his best to speak your 'language,' and keep up with your craziness.
 
 Date a Pisay boy. Date a Pisay boy for he is bound to achieve amazing feats. He did not study just for the sake of studying. A Pisay boy studies to help him trek to somewhere great. He works hard for what he wants achieve. He is a curious being. Quantum physics, video games, computer science, chemistry, dance, arts, literature, sports, a painting of a meadow, and a lot more that interests him makes him tick may it be inside or outside the classroom.
 
-Date a Pisay boy. Date a Pisay boy for he will inspire you achieve your goals. He is simple but has a broad imagination complemented by child-like curiousity. Let him take you to his wonderful world, and be astonished and get lost in it.
+Date a Pisay boy. Date a Pisay boy for he will inspire you to achieve your goals. He is simple but has a broad imagination complemented by child-like curiousity. Let him take you to his wonderful world, and be astonished and get lost in it.
 
 ![Imagination](/static/img/posts/date-a-pisay-boy/imagination.jpg)
 
