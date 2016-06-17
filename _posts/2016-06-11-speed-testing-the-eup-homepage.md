@@ -7,7 +7,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/speed-testing-the-eup-homepage/
 header-img: "img/posts/speed-testing-the-eup-homepage/header.jpg"
 comments: true
-description: ""
+description: "Recently, I have read that the university I am currently studying in, University of the Philippines Visayas Tacloban College, will slowly be shifting to use a new system"
 ---
 
 ***EDIT** (June 11, 2016, 2:50 PM): Added a disclaimer.    
