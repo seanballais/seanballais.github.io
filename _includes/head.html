@@ -10,6 +10,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" type="image/x-icon" href="/static/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/css/global.css">
     {% if page.css_file %}
     <link rel="stylesheet" type="text/css" href="/static/css/{{ page.css_file }}">
@@ -17,4 +18,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
 
     <!-- Nope. Ain't supporting IE 6/7/8/9/10/11. -->
+
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
 </head>
