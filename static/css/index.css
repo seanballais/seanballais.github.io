@@ -1,0 +1,23 @@
+section {
+    max-width: 1200px;
+}
+
+section a > section.post-preview {
+    color: #fff;
+    background-size: 100% auto;
+    text-align: center;
+    padding-top: 20%;
+    margin: 0;
+}
+
+section a > section.post-preview > h2 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 2em;
+    display: block;
+}
+
+section a > section.post-preview > h4 {
+    font-family: Lusitana;
+    display: block;
+}
