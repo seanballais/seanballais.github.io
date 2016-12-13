@@ -186,6 +186,11 @@
 }
 
 /* CSS Global Definitions */
+
+a:hover {
+    text-decoration: none;
+}
+
 nav {
     font-family: Montserrat;
     font-weight: bold;
@@ -200,6 +205,8 @@ nav > div > ul li {
 }
 
 nav > div > ul li > a {
+    transition: color 0.5s ease;
+
     color: #222222;
 }
 
@@ -224,6 +231,8 @@ header#banner > div.social-links {
 }
 
 header#banner > div.social-links > ul li > a > span.fa-stack {
+    transition: color 0.5s ease;
+
     color: #3c3c3c;
 }
 

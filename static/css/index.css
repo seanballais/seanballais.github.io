@@ -4,11 +4,18 @@ section#recent-posts {
 }
 
 section#recent-posts a > section.post-preview {
-    color: #fff;
+    transition: opacity 0.5s ease;
+
     background-size: 100% auto;
-    text-align: center;
     padding-top: 20%;
     margin: 0;
+    opacity: 1.0;
+
+    color: #fff;
+}
+
+section#recent-posts a > section.post-preview:hover {
+    opacity: 0.8;
 }
 
 section#recent-posts a > section.post-preview > div.post-preview-text {
