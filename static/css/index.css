@@ -1,3 +1,12 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
 section#recent-posts,
 section#posts,
 section#projects {
@@ -50,7 +59,8 @@ section#posts > h4:hover {
     color: #5785c9;
 }
 
-section#posts div.post-container > a {
+section#posts div.post-container > a,
+section#projects div.item-container > div.item-preview {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 3%;
@@ -69,7 +79,8 @@ section#recent-posts a > div.post-preview {
 }
 
 section#recent-posts a > div.post-preview,
-section#posts div.post-container > a > div.post-preview-small {
+section#posts div.post-container > a > div.post-preview-small,
+section#projects div.item-container > div.item-preview {
     padding-top: 20%;
 }
 
@@ -83,13 +94,21 @@ section#recent-posts a > div.post-preview > div.post-preview-text {
     padding: 2%;
 }
 
+section#projects div.item-container > h4,
+section#projects div.item-container > h2 {
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 1.5;
+}
+
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text {
     text-align: center;
     padding: 5%;
 }
 
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2,
-section#recent-posts a > div.post-preview > div.post-preview-text > h2 {
+section#recent-posts a > div.post-preview > div.post-preview-text > h2,
+section#projects div.item-container > h2 {
     display: block;
     font-family: Raleway;
     font-weight: 600;
@@ -98,7 +117,8 @@ section#recent-posts a > div.post-preview > div.post-preview-text > h2 {
     text-overflow: ellipsis;
 }
 
-section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2 {
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2,
+section#projects div.item-container > h2 {
     font-size: 1.5em;
 }
 
@@ -106,8 +126,13 @@ section#recent-posts a > div.post-preview > div.post-preview-text > h2 {
     font-size: 2em;
 }
 
+section#projects div.item-container > div.item-preview {
+    height: 200px;
+}
+
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h4,
-section#recent-posts a > div.post-preview > div.post-preview-text > h4 {
+section#recent-posts a > div.post-preview > div.post-preview-text > h4,
+section#projects div.item-container > h4 {
     display: block;
     font-family: Lusitana;
 }
