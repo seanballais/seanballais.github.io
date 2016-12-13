@@ -1,10 +1,32 @@
-section#recent-posts {
-    margin-top: 1%;
-    max-width: 1366px;
+section#recent-posts,
+section#posts {
+    max-width: 100vw;
 }
 
-section#posts {
-    max-width: 1200px;
+section#recent-posts {
+    margin-top: 1%;
+    padding: 0;
+}
+
+section#quick-info {
+    font-family: Lusitana;
+    color: #fff;
+    background-color: rgb(55, 55, 55);
+
+    padding: 1%;
+}
+
+section#quick-info div#info-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section#quick-info div#info-container a {
+    color: rgb(104, 170, 228);
+}
+
+section#quick-info div#info-container a:hover {
+    color: rgb(64, 122, 173);
 }
 
 section#posts > h3 {
@@ -50,7 +72,8 @@ section#recent-posts a > section.post-preview > div.post-preview-text {
 }
 
 section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text {
-    padding: 3%;
+    text-align: center;
+    padding: 5%;
 }
 
 section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h2,
@@ -64,7 +87,7 @@ section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
 }
 
 section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
@@ -77,19 +100,11 @@ section#recent-posts a > section.post-preview > div.post-preview-text > h4 {
     font-family: Lusitana;
 }
 
-section#quick-info {
-    font-family: Lusitana;
-
-    max-width: 960px;
-    padding: 1%;
-}
-
 section#quick-info p {
     display: inline-block;
     font-size: 1.25em;
     line-height: 1.5;
     padding: 2%;
-    background-color: rgb(47, 124, 194);
 }
 
 section#quick-info p a {
