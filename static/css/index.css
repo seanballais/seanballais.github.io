@@ -56,8 +56,8 @@ section#posts div.post-container > a {
     padding-right: 3%;
 }
 
-section#posts div.post-container > a > section.post-preview-small,
-section#recent-posts a > section.post-preview {
+section#posts div.post-container > a > div.post-preview-small,
+section#recent-posts a > div.post-preview {
     transition: opacity 0.5s ease;
 
     background-size: 100% auto;
@@ -67,28 +67,28 @@ section#recent-posts a > section.post-preview {
     color: #fff;
 }
 
-section#recent-posts a > section.post-preview,
-section#posts div.post-container > a > section.post-preview-small {
+section#recent-posts a > div.post-preview,
+section#posts div.post-container > a > div.post-preview-small {
     padding-top: 20%;
 }
 
-section#posts div.post-container > a > section.post-preview-small:hover,
-section#recent-posts a > section.post-preview:hover {
+section#posts div.post-container > a > div.post-preview-small:hover,
+section#recent-posts a > div.post-preview:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-section#recent-posts a > section.post-preview > div.post-preview-text {
+section#recent-posts a > div.post-preview > div.post-preview-text {
     padding: 2%;
 }
 
-section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text {
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text {
     text-align: center;
     padding: 5%;
 }
 
-section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h2,
-section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2,
+section#recent-posts a > div.post-preview > div.post-preview-text > h2 {
     display: block;
     font-family: Raleway;
     font-weight: 600;
@@ -97,16 +97,16 @@ section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
     text-overflow: ellipsis;
 }
 
-section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h2 {
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2 {
     font-size: 1.5em;
 }
 
-section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
+section#recent-posts a > div.post-preview > div.post-preview-text > h2 {
     font-size: 2em;
 }
 
-section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h4,
-section#recent-posts a > section.post-preview > div.post-preview-text > h4 {
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h4,
+section#recent-posts a > div.post-preview > div.post-preview-text > h4 {
     display: block;
     font-family: Lusitana;
 }

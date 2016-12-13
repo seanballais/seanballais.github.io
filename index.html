@@ -7,12 +7,12 @@ css_file: index.css
     <section id="recent-posts" class="container-fluid">
         {% for post in site.posts limit: 2 %}
         <a href="{{ post.url }}">
-            <section class="post-preview col-md-6" title="{{ post.title }}" alt="Link to the {{ post.title }} article" style="background: radial-gradient(300px, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover;">
+            <div class="post-preview col-md-6" title="{{ post.title }}" alt="Link to the {{ post.title }} article" style="background: radial-gradient(300px, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover;">
                 <div class="post-preview-text">
                     <h2>{{ post.title }}</h2>
                     <h4>{{ post.date | date: "%B %-d, %Y" }}</h4>
                 </div>
-            </section>
+            </div>
         </a>
         {% endfor %}
     </section>
@@ -26,12 +26,12 @@ css_file: index.css
         {% for post in site.posts limit: 6 offset: 2 %}
         <div class="post-container col-md-4">
             <a href="{{ post.url }}">
-                <section class="post-preview-small" title="{{ post.title }}" alt="Link to the {{ post.title }} article." style="background: radial-gradient(200px, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover;">
+                <div class="post-preview-small" title="{{ post.title }}" alt="Link to the {{ post.title }} article." style="background: radial-gradient(200px, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover;">
                     <div class="post-preview-small-text">
                         <h2>{{ post.title }}</h2>
                         <h4>{{ post.date | date: "%B %-d, %Y" }}</h4>
                     </div>
-                </section>
+                </div>
             </a>
         </div>
         {% endfor %}
@@ -40,5 +40,8 @@ css_file: index.css
     <hr class="index-divider" />
     <section id="projects" class="container-fluid">
         <h3>Recent Projects</h3>
+        <div id="project-container">
+
+        </div>
     </section>
 </article>
