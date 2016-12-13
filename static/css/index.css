@@ -1,5 +1,6 @@
 section#recent-posts,
-section#posts {
+section#posts,
+section#projects {
     max-width: 1366px;
 }
 
