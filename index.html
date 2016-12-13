@@ -3,12 +3,14 @@ layout: default
 css_file: index.css
 ---
 
-<section class="container-fluid">
+<section id="recent-posts" class="container-fluid">
     {% for post in site.posts limit: 2 %}
     <a href="{{ post.url }}">
-        <section class="post-preview col-md-6" style="background: url('{{ site.baseurl }}static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover;">
-            <h2>{{ post.title }}</h2>
-            <h4>{{ post.date | date: "%B %-d, %Y" }}</h4>
+        <section class="post-preview col-md-6" title="{{ post.title }}" alt="Link to the {{ post.title }} article" style="background: radial-gradient(300px, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover;">
+            <div class="post-preview-text">
+                <h2>{{ post.title }}</h2>
+                <h4>{{ post.date | date: "%B %-d, %Y" }}</h4>
+            </div>
         </section>
     </a>
     {% endfor %}

@@ -209,7 +209,7 @@ nav > div > ul li > a:hover {
 }
 
 header#banner {
-    margin: 1%;
+    margin-bottom: 2%;
     width: 100%;
     text-align: center;
 }

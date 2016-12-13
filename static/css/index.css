@@ -1,8 +1,9 @@
-section {
+section#recent-posts {
+    margin-top: 1%;
     max-width: 1200px;
 }
 
-section a > section.post-preview {
+section#recent-posts a > section.post-preview {
     color: #fff;
     background-size: 100% auto;
     text-align: center;
@@ -10,14 +11,21 @@ section a > section.post-preview {
     margin: 0;
 }
 
-section a > section.post-preview > h2 {
+section#recent-posts a > section.post-preview > div.post-preview-text {
+    padding: 2%;
+}
+
+section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
+    display: block;
     font-family: Raleway;
     font-weight: 600;
     font-size: 2em;
-    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-section a > section.post-preview > h4 {
-    font-family: Lusitana;
+section#recent-posts a > section.post-preview > div.post-preview-text > h4 {
     display: block;
+    font-family: Lusitana;
 }
