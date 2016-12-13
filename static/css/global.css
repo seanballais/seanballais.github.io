@@ -186,9 +186,9 @@
 }
 
 /* CSS Global Definitions */
-
 a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 nav {

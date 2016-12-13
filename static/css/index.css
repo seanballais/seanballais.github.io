@@ -1,38 +1,97 @@
 section#recent-posts {
     margin-top: 1%;
+    max-width: 1366px;
+}
+
+section#posts {
     max-width: 1200px;
 }
 
+section#posts > h3 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+    font-family: Lusitana;
+    font-weight: bold;
+    text-align: center;
+}
+
+section#posts div.post-container > a {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+section#posts div.post-container > a > section.post-preview-small,
 section#recent-posts a > section.post-preview {
     transition: opacity 0.5s ease;
 
     background-size: 100% auto;
-    padding-top: 20%;
     margin: 0;
     opacity: 1.0;
 
     color: #fff;
 }
 
+section#recent-posts a > section.post-preview,
+section#posts div.post-container > a > section.post-preview-small {
+    padding-top: 20%;
+}
+
+section#posts div.post-container > a > section.post-preview-small:hover,
 section#recent-posts a > section.post-preview:hover {
     opacity: 0.8;
+    cursor: pointer;
 }
 
 section#recent-posts a > section.post-preview > div.post-preview-text {
     padding: 2%;
 }
 
+section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text {
+    padding: 3%;
+}
+
+section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h2,
 section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
     display: block;
     font-family: Raleway;
     font-weight: 600;
-    font-size: 2em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
+section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h2 {
+    font-size: 1.25em;
+}
+
+section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
+    font-size: 2em;
+}
+
+section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h4,
 section#recent-posts a > section.post-preview > div.post-preview-text > h4 {
     display: block;
     font-family: Lusitana;
+}
+
+section#quick-info {
+    font-family: Lusitana;
+
+    max-width: 960px;
+    padding: 1%;
+}
+
+section#quick-info p {
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 1.5;
+    padding: 2%;
+    background-color: rgb(47, 124, 194);
+}
+
+section#quick-info p a {
+    transition: color 0.5s ease;
 }
