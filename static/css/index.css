@@ -10,6 +10,7 @@ section#recent-posts {
 
 section#quick-info {
     font-family: Lusitana;
+    font-size: 1.25em;
     color: #fff;
     background-color: rgb(55, 55, 55);
 
@@ -29,13 +30,23 @@ section#quick-info div#info-container a:hover {
     color: rgb(64, 122, 173);
 }
 
-section#posts > h3 {
+section#posts > h3,
+section#posts > h4,
+section#projects > h3 {
     margin-top: 2%;
     margin-bottom: 1%;
 
     font-family: Lusitana;
     font-weight: bold;
     text-align: center;
+}
+
+section#posts > h4 {
+    color: #416396;
+}
+
+section#posts > h4:hover {
+    color: #5785c9;
 }
 
 section#posts div.post-container > a {
@@ -87,7 +98,7 @@ section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
 }
 
 section#posts div.post-container > a > section.post-preview-small > div.post-preview-small-text > h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 section#recent-posts a > section.post-preview > div.post-preview-text > h2 {
@@ -109,4 +120,11 @@ section#quick-info p {
 
 section#quick-info p a {
     transition: color 0.5s ease;
+}
+
+hr.index-divider {
+    max-width: 900px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(218, 218, 218);
 }

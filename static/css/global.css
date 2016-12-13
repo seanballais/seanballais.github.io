@@ -194,6 +194,7 @@ a:hover {
 nav {
     font-family: Montserrat;
     font-weight: bold;
+    font-size: 1em;
     padding: 1%;
     max-width: 1200px;
     margin: 0 auto;
