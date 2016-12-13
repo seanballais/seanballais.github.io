@@ -66,3 +66,34 @@
 }
 
 /* CSS Global Definitions */
+.navbar {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #464646;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+div#banner {
+    margin: 1%;
+}
+
+div#banner div.social-links {
+    margin: 1%;
+}
+
+div#banner div.social-links ul li a > span.fa-stack {
+    color: #3c3c3c;
+}
+
+div#banner div.social-links ul li a > span.fa-stack:hover {
+    color: #636363;
+}
