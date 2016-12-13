@@ -66,31 +66,35 @@
 }
 
 /* CSS Global Definitions */
-.navbar {
+nav {
     font-family: Montserrat;
     font-weight: bold;
-    color: #464646;
+    padding: 1%;
 }
 
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
+nav > div > ul li {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
+nav > div > ul li > a {
+    color: #222222;
+}
+
+nav > div > ul li > a:hover {
+    color: #545454;
+    text-decoration: none;
 }
 
 div#banner {
     margin: 1%;
 }
 
-div#banner div.social-links {
+div#banner > div.social-links {
     margin: 1%;
 }
 
-div#banner div.social-links ul li a > span.fa-stack {
+div#banner > div.social-links > ul li > a > span.fa-stack {
     color: #3c3c3c;
 }
 
