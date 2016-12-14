@@ -8,10 +8,14 @@ facebook_username: seanballais
 reddit_username: seanballais
 linkedin_username: seanballais
 
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-github-metadata
+  - github-pages
 exclude:
   - Gemfile
   - Gemfile.lock

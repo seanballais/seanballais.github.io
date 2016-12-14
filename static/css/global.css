@@ -245,6 +245,11 @@ header#banner div.social-links ul li a > span.fa-stack:hover {
     color: #636363;
 }
 
+article {
+    max-width: 1366px;
+    padding: 0 !important;
+}
+
 footer {
     background-color: rgb(59, 59, 59);
     color: #fff;
