@@ -2,4 +2,22 @@
 title: Contact
 layout: page
 page_title: Contact Me
+css_file: contact.css
 ---
+
+<div id="contact-response"></div>
+<div id="contact">
+    <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you as soon as possible.</p>
+    <form id="contact-form">
+        <div class="input-group">
+            <input id="email-address" type="email" class="form-control input-lg" name="_replyto" autocomplete="off" placeholder="Email address">
+            <input type="text" name="_gotcha" style="display:none">
+            <textarea class="form-control input-lg custom-control" rows="5" autocomplete="off" placeholder="Your message..."></textarea>
+            <!-- Formspree configuration -->
+            <input type="hidden" name="_subject" value="Someone contacted you through your site!">
+            <!-- End of formspree configuration -->
+            <input id="submit-button" type="submit" class="btn btn-success" value="Send">
+        </div>
+    </form>
+</div>
+<p>I'm also available on <a href="https://www.twitter.com/seanballais/">Twitter</a> (in case you prefer to drop me a line with only 140 characters or less), <a href="https://www.reddit.com/user/seanballais">Reddit</a>, and <a href="https://www.linkedin.com/in/seanballais">LinkedIn</a>. My email address is <script type="text/javascript">var email = "sean", host = "@seanballais.com", emailAddress = email + host; document.write('<a href="mailto:' + emailAddress + '">' + emailAddress + '</a>');</script> should you need it.</p>
