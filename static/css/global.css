@@ -238,9 +238,38 @@ header#banner > div.social-links {
 header#banner > div.social-links > ul li > a > span.fa-stack {
     transition: color 0.5s ease;
 
-    color: #3c3c3c;
+    color: #3c3c3c;a > span.fa-stack
 }
 
 header#banner div.social-links ul li a > span.fa-stack:hover {
     color: #636363;
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    font-family: Lusitana;
+    text-align: center;
+
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+}
+
+footer div#footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer div.social-links {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer div.social-links ul li > a > span.fa-stack {
+    transition: color 0.5s ease;
+    color: rgb(105, 105, 105);
+}
+
+footer div.social-links ul li > a > span.fa-stack:hover {
+    color: rgb(42, 42, 42);
 }
