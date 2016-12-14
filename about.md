@@ -1,7 +1,6 @@
 ---
 title: About
 layout: page
-css_file: about.css
 page_title: About Me
 ---
 

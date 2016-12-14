@@ -16,7 +16,7 @@ section#description {
     line-height: 1.5;
 }
 
-img {
+section#description img {
     margin: 0 auto;
     max-width: 100%;
     display: block;

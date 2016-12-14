@@ -222,13 +222,11 @@ nav > div > ul li > a:hover {
 
 header#banner {
     margin-bottom: 2%;
-    width: 100%;
     text-align: center;
 }
 
 header#banner div#banner-img {
     display: inline-block;
-    margin: 0 auto;
 }
 
 header#banner > div.social-links {
