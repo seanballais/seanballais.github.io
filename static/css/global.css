@@ -186,6 +186,10 @@
 }
 
 /* CSS Global Definitions */
+a {
+    transition: color 0.5s ease !important;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;

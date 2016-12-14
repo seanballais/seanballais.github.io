@@ -18,26 +18,45 @@ section#recent-posts {
     padding: 0;
 }
 
-section#quick-info {
+section#quick-info,
+section#youtube-announcement {
     font-family: Lusitana;
     font-size: 1.25em;
-    color: #fff;
-    background-color: rgb(55, 55, 55);
 
     padding: 1%;
 }
 
-section#quick-info div#info-container {
+section#quick-info {
+    color: #fff;
+    background-color: rgb(55, 55, 55);
+}
+
+section#youtube-announcement {
+    color: #000;
+}
+
+section#quick-info div#info-container,
+section#youtube-announcement div#info-content {
     max-width: 1000px;
     margin: 0 auto;
 }
 
 section#quick-info div#info-container a {
+    transition: color 0.5s ease;
     color: rgb(104, 170, 228);
 }
 
 section#quick-info div#info-container a:hover {
     color: rgb(64, 122, 173);
+}
+
+section#youtube-announcement div#info-content a {
+    transition: color 0.5s ease;
+    color: rgb(171, 225, 255);
+}
+
+section#youtube-announcement div#info-content a:hover {
+    color: rgb(135, 209, 250);
 }
 
 section#posts > h3,
@@ -51,11 +70,20 @@ section#projects > h3 {
     text-align: center;
 }
 
-section#posts > h4 {
+section#projects > div#view-more > h4 {
+    font-family: Lusitana;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+section#posts > h4,
+section#projects div#view-more > h4 {
     color: #416396;
 }
 
-section#posts > h4:hover {
+section#posts > h4:hover,
+section#projects div#view-more > h4:hover {
     color: #5785c9;
 }
 
@@ -137,10 +165,19 @@ section#projects div.item-container > h4 {
     font-family: Lusitana;
 }
 
-section#quick-info p {
+section#youtube-announcement > div#info-content h2 {
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+section#quick-info p,
+section#youtube-announcement > div#info-content p {
     display: inline-block;
     font-size: 1.25em;
     line-height: 1.5;
+}
+
+section#quick-info p {
     padding: 2%;
 }
 
@@ -153,4 +190,18 @@ hr.index-divider {
     border-style: solid;
     border-width: 1px;
     border-color: rgb(218, 218, 218);
+}
+
+section#youtube-announcement {
+    background-color: rgb(50, 106, 215);
+    padding: 2%;
+}
+
+section#youtube-announcement p,
+section#youtube-announcement h2 {
+    color: #fff;
+}
+
+section#youtube-announcement div#info-content div#content-text h2 {
+    margin: 0;
 }
