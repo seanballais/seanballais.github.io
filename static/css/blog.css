@@ -1,0 +1,85 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header h1 {
+    font-family: Raleway;
+    text-align: center;
+}
+
+section#posts > h3,
+section#posts > h4 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+    font-family: Lusitana;
+    font-weight: bold;
+    text-align: center;
+}
+
+section#posts > h4 {
+    color: #416396;
+}
+
+section#posts > h4:hover {
+    color: #5785c9;
+}
+
+section#posts div.post-container > a {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+section#posts div.post-container > a > div.post-preview-small {
+    transition: opacity 0.5s ease;
+
+    background-size: 100% auto;
+    margin: 0;
+    opacity: 1.0;
+
+    color: #fff;
+}
+
+section#posts div.post-container > a > div.post-preview-small {
+    padding-top: 20%;
+}
+
+section#posts div.post-container > a > div.post-preview-small:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+section#projects div.item-container > h4,
+section#projects div.item-container > h2 {
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 1.5;
+}
+
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text {
+    text-align: center;
+    padding: 5%;
+}
+
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2 {
+    display: block;
+    font-family: Raleway;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.5em;
+}
+
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h4 {
+    display: block;
+    font-family: Lusitana;
+    font-size: 1.25em;
+}
