@@ -1,0 +1,13 @@
+h2 {
+    font-family: Raleway !important;
+    font-weight: normal;
+    font-size: 2em !important;
+}
+
+p {
+    font-size: 1em !important;
+}
+
+article > section#description {
+    padding: 0 !important;
+}
