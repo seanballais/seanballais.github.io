@@ -1,11 +1,11 @@
 <head>
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else if page.nav_title %}{{ page.nav_title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% elsif page.nav_title %}{{ page.nav_title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.title %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- Add OpenGraph (Facebook) and Twitter Card tags. -->
+    {% include social-tags.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

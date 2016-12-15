@@ -2,6 +2,7 @@
 title: About
 layout: page
 page_title: About Me
+ad: true
 ---
 
 Hi! I’m Sean. I write code in C/C++, Java, Python, HTML5, and CSS3. Okay, I know this is too short for an *About page*. So, I will elaborate more.
