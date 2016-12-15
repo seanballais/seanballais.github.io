@@ -24,3 +24,12 @@ section#description img {
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
+h4 {
+    font-family: Lusitana !important;
+    font-size: 1.25em;
+}
+
+header {
+    text-align: center;
+}
