@@ -7,7 +7,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/out-with-the-old-and-in-with-the-new/
 header-img: "img/posts/out-with-the-old-and-in-with-the-new/header.jpg"
 comments: true
-description: "It has been a few months since I have written an article in this blog. I had been busy with a few projects of mine and school was in the way as well. The old design of this blog was one of the factors that prevents me from writing new articles because I want to redesign this first before writing new articles. Fortunately, after being delayed by a year and a half, I was finally able to redesign this website and could get back to writing new articles."
+description: "A new design to signify a fresh return."
 ---
 
 I have to admit. I have not stuck with my usually one or two articles per month since this year. Worse, I have not been blogging since June of 2016.

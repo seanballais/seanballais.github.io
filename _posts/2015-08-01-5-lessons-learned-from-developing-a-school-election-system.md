@@ -18,7 +18,7 @@ I went back to work on it for 2-3 weeks more after submitting my entry to the co
 
 Eventually, after some encouragement from my friend who requested the project, I finally finished the app, with all the requested (even the last minute ones) features by July 22, 2015 after putting it on hold for nearly 3 weeks. During the development cycle and the days when my app was used, I learned 5 valuable lessons that I think will all of us improve ourselves as programmers.
 
-####1) Write Your Plan On Paper
+#### 1) Write Your Plan On Paper    
 We've been, in one way or another, taught to plan before we code. It's absolutely necessary so that you won't get lost and waste time thinking what feature to add next.
 
 Making the election app taught me a valuable lesson - write your plan on paper. Right before development started, I planned on how the app will look like, and how it will process any input. But the plan was just in my head. I never wrote the plan on paper. This soon proved to be inconvenient. It gave me a feeling of burden, and the project won't be finished. It gave me unnecessary stress. I usually (but not always) write down my plan on paper how the logic will flow in other projects I did. Sadly, I didn't do it on this one.
@@ -27,7 +27,7 @@ Making the election app taught me a valuable lesson - write your plan on paper. 
 
 Please don't do the same mistakes that I did. Write down your plan at least on paper. It's gonna help you in the long run. To beginners, I know that it's very tempting to write down code immediately. But please, resist the temptation. The way you write down your plan on paper may be different from person to person, or organization to organization.
 
-####2) Never Use A Quick and Dirty Solution
+#### 2) Never Use A Quick and Dirty Solution    
 As mentioned earlier, I lost interest in continuing the app during the time I was going to take my SAT test. During that time, I kept looking for a pre-built election app. I found many. Most of them are just regular poll apps. Not totally suitable for the job. The best I can find is the [Halalan project](https://github.com/halalaninitiative/halalan) by the [Halalan Initiative](http://halalan.uplug.org/). Even that wasn't enough for the job. I knew at that point that going with a shortcut would not be the best solution. It would a quick and dirty solution. I wouldn't probably have been satisfied and happy with the project.
 
 Fortunately, the friend who requested the app encouraged me enough to finish the project. With that little spark of encouragement, the project was brought to life once more and has seen the light of day. A quote by the late Randy Pausch, a CS professor at Carnegie Mellon University, summarizes what I learned.
@@ -37,7 +37,7 @@ Fortunately, the friend who requested the app encouraged me enough to finish the
 
 To generalize, if you want to produce good software, never go down the quick and dirty route. Work hard on your project. Even though it might not succeed, at least you'll get a feeling of some form of accomplishment, and a lesson that can help you improve yourself as a programmer, and/or as a person.
 
-####3) Prepare For Any Sudden Requests
+#### 3) Prepare For Any Sudden Requests    
 There are two stable versions of the election app that I made. The first version was finished on June 19. It was ready to be used, and was already deployed at [PythonAnywhere](https://www.pythonanywhere.com). It uses Facebook for the sign-in. If it is your first time to vote, a page will appear that will ask for a password after signing in. After confirming, you will be directed to a voting page (pictured below) if it's your first time to vote. Otherwise, you will be shown the *Thank You* page.
 
 ![First version of the election app](/static/img/posts/5-lessons-learned-from-developing-a-school-election-system/elections-app-first-version.png)
@@ -58,7 +58,7 @@ I was finally satisfied. I feel ready for the next adventure.
 
 This experience taught me to be prepared for anything, even for sudden requests. This can make some programmers a bit cranky (or maybe make them do some table flipping). Their hard work wasted for nothing. But we need to do this (okay, maybe not) for the benefit of our clients. We're serving them anyway and make their respective endeavors successful. Who knows? We are probably the reasons why our clients are having a good time. We make them happy, you become happy *\*ka-ching\**. Win-win!
 
-####4) Check Before You Apply
+#### 4) Check Before You Apply    
 During the last week I spent developing the app, I was making changes to the code. As usual, I always use a version control system for these things, notably Git. I usually have three active branches: the **master** branch for the latest stable code; the **develop** branch for the latest unstable code; and a branch I create when developing features and fixes, and writing a few changes.
 
 However, on one occasion during the week, I forgot to create a branch for the minor changes I was writing in the code. I then discovered that I was making changes on the `develop` branch. I panicked. I don't know what to do. I felt helpless. I can't create a new branch with the changes. I had to push my changes first before checking out a new branch. Helplessly, I pushed the changes to the `develop` branch.
@@ -67,7 +67,7 @@ However, on one occasion during the week, I forgot to create a branch for the mi
 
 Because of this occurrence, I learned to check things first before I apply. This makes sure that we do the right thing, and with less errors. Like what they say, think before you act.
 
-####5) Anticipate The Worst
+#### 5) Anticipate The Worst    
 On the day before the app will be used by the school, the Commission on Elections of the school held a test run of the app. They had to login using all the accounts that were registered on the day before, and vote.
 
 To authenticate a user, the app would send an AJAX POST request to the server containing the user name, and the password, and the server would check if the user name and password combination was right. It would then send back a 'success' message if authenticated, or a 'failed' message otherwise.

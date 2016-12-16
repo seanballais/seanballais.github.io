@@ -60,4 +60,4 @@ Right now, I am planning to refactor the model to use SQLAlchemy instead of rely
 
 Generally, developing Basyang Server has been fun. Now that I have more time developing the application unlike in the previous weeks, I will be able to continue developing Basyang Server and bump into multiple bugs again.
 
-*Are you currently working in a startup? What have been developing lately? Let us know in the comments below.*
+*Are you currently working in a startup? What have you been developing lately? Let us know in the comments below.*
