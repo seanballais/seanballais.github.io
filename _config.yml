@@ -10,6 +10,7 @@ reddit_username: seanballais
 linkedin_username: seanballais
 
 permalink: pretty
+future: true
 
 # Build settings
 markdown: kramdown
