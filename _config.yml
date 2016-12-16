@@ -17,6 +17,7 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-sitemap
   - github-pages
 exclude:
   - Gemfile
