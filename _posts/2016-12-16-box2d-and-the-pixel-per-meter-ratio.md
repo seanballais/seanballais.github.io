@@ -2,7 +2,7 @@
 layout:     post
 title:      "Box2D and the Pixel Per Meter Ratio"
 subtitle:   "The importance of using a PPM ratio"
-date:       2016-12-17 14:58
+date:       2016-12-17 12:27
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/box2d-and-the-pixel-per-meter-ratio/
 header-img: "img/posts/box2d-and-the-pixel-per-meter-ratio/header.jpg"
@@ -20,7 +20,7 @@ By default, Box2D assumes that one pixel on the screen is equal to one meter to 
 
 ![1024 pixels equals to 1024 meters in Box2D by default!](/static/img/posts/box2d-and-the-pixel-per-meter-ratio/default-box2d-travel.jpg)
 
-Fortunately, solving this problem is easy. We would just need to come up with a reasonable conversion factor for the pixels on the screen, and the meters in the physics world. This conversion factor is what I would call as the **pixel per meter (PPM) ratio**. This pixel per meter ratio would set how many pixels a meter is equal to in your physics world in Box2D.
+Fortunately, solving this problem is easy. We would just need to come up with a reasonable conversion factor for the pixels on the screen, and the meters in the physics world. This conversion factor is called the **pixel per meter (PPM) ratio**. This pixel per meter ratio would set how many pixels a meter is equal to in your physics world in Box2D.
 
 For example, if you set your PPM ratio to 32, then it would mean that one meter in Box2D would equal to 32 pixels in your screen. A character traveling from `(0, 0)` to `(1024, 0)` would only be traveling 32 meters, instead of 1024 meters if you are using the default pixel per meter ratio of 1 pixel to 1 meter. That's a 96.875% decrease in distance traveled! This will result in faster movement and a stabler simulation.
 
