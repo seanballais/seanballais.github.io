@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Out With The Old, and In With The New"
-subtitle:   "Redesigning this website"
 date:       2016-12-16 14:58
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/out-with-the-old-and-in-with-the-new/

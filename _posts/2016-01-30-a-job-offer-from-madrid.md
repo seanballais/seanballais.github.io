@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "A Job Offer from Madrid"
-subtitle:   "What a surprise for me"
 date:       2016-01-30 21:48
 author:     "Sean Francis N. Ballais"
 permalink:  "/blog/a-job-offer-from-madrid/"

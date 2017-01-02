@@ -20,6 +20,4 @@ gems:
   - jekyll-sitemap
   - github-pages
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - raw

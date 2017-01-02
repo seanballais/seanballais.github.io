@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "ANNOUNCEMENT: Now doing a gameplay series of Fez"
-subtitle:   "Cause why not?"
 date:       2015-12-24 23:14
 author:     "Sean Francis N. Ballais"
 permalink:  "/blog/announcement-new-fez-gameplay/"

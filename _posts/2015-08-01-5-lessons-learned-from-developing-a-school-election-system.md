@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "5 Lessons Learned From Developing A School Election System"
-subtitle:   "Experience is an excellent teacher - especially in programming"
 date:       2015-08-01 20:36
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/5-lessons-learned-from-developing-a-school-election-system/

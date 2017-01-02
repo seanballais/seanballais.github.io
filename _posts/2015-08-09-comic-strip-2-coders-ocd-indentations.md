@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Comic Strip &#35;2 - Coder's OCD: Indentations"
-subtitle:   "Everything must be exactly aligned properly"
 date:       2015-08-09 18:02
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-2-coders-ocd-indentations/

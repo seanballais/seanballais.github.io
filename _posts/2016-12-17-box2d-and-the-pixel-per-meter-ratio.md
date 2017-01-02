@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Box2D and the Pixel Per Meter Ratio"
-subtitle:   "The importance of using a PPM ratio"
 date:       2016-12-17 12:27
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/box2d-and-the-pixel-per-meter-ratio/

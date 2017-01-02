@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "The Cost of Passion"
-subtitle:   "Passion always comes at a price."
 date:       2015-11-10 20:01
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/the-cost-of-passion/

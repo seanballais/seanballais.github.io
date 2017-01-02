@@ -1,13 +1,12 @@
 ---
 layout:     post
 title:      "Remembering Haiyan"
-subtitle:   "Remembering my experiences during and after the onslaught of Typhoon Haiyan in Tacloban City."
 date:       2015-11-08 20:21
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/remembering-haiyan/
 header-img: "img/posts/remembering-haiyan/header.jpg"
 comments: true
-description: "It all started on November 6, 2015. The day was calm. It was sunny with no clouds. We have heard of an incoming storm that formed in the middle of the Pacific Ocean days before. The storm was named Haiyan. Yet, we weren't really worried. The people of Tacloban City did the usual preparatory measures before the storm came. They bought canned goods, batteries, water, and other things necessary for survival."
+description: "Remembering my experiences during and after the onslaught of Typhoon Haiyan in Tacloban City."
 ---
 *Today's the 2nd anniversary of Typhoon Haiyan. I thought it would be a great opportunity to share my experiences during and after the storm. There won't be any pictures in this article because I wasn't able to take any photos relating to my experiences during and after the storm. I am sorry. However, if I find any photos, I'll upload them.*
 
