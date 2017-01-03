@@ -62,7 +62,7 @@ private:
 };
 ```
 
-The `Message` constructor accepts the string parameter `event` that contains the event that happened. The value of `messageEvent` may be `W_PRESSED` or `PLAYER_FELL`. Note that this implementation may differ from yours depending on your needs.
+The `Message` constructor accepts the string parameter `event` that contains the event that happened. The value of `messageEvent` can be something like `W_PRESSED` or `PLAYER_FELL`. Note that this implementation may differ from yours depending on your needs.
 
 Next, we will implement the message bus itself where all components are connected to. This is how we can implement the message bus.
 
