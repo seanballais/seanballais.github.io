@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Implementing a Simple Message Bus in C++"
-date:       2017-01-03 14:30
+date:       2017-01-03 14:33
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/implementing-a-simple-message-bus-in-cpp/
 header-img: "img/posts/implementing-a-simple-message-bus-in-cpp/header.jpg"
