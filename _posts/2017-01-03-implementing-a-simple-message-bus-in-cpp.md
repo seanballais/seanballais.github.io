@@ -109,7 +109,7 @@ Well, that's aplenty! Let's explain what each function does.
 * `addReceiver()`    
 This function adds a new receiver to the list of receivers `notify()` will loop through. A receiver is basically another component connected to the message bus. All receivers are stored in the `receivers` vector. This function should be called during the initialization of your program. We are accepting `std::function` objects so that we will be able to accept receivers that do not inherit from some sort of an `Observer` class. Also, the function name we pass can be different as long as the function has the same signature.
 * `sendMessage()`    
-Adds a new message that the message bus will send to each component. All messages are added in a queue(`messages` in our case). We are using a queue so that we are guaranteed that messages are sent using FIFO (first in, first out). You do not want to be killed by an enemy first even though you killed him first, don't you? This function is invoked by the component itself that has a reference to the message bus.
+Adds a new message that the message bus will send to each component. All messages are added in a queue (`messages` in our case). We are using a queue so that we are guaranteed that messages are sent using FIFO (first in, first out). You do not want to be killed by an enemy first even though you killed him first, don't you? This function is invoked by the component itself that has a reference to the message bus.
 * `notify()`    
 This function sends all messages to each component. The first message in the queue is the first to be sent to each component and then popped off the message queue and so on. This function should be called during the game loop.
 
