@@ -15,7 +15,7 @@ After a few days of working, I placed the project on hold. Before my friend aske
 
 I went back to work on it for 2-3 weeks more after submitting my entry to the contest. Sadly, I had put it on hold again because I had to go to Cebu City to take a SAT test. At that point, I lost interest in continuing the project, and just searched for an easier route. A shortcut.
 
-Eventually, after some encouragement from my friend who requested the project, I finally finished the app, with all the requested (even the last minute ones) features by July 22, 2015 after putting it on hold for nearly 3 weeks. During the development cycle and the days when my app was used, I learned 5 valuable lessons that I think will all of us improve ourselves as programmers.
+Eventually, after some encouragement from my friend who requested the project, I finally finished the app, with all the requested (even the last minute ones) features by July 22, 2015 after putting it on hold for nearly 3 weeks. During the development cycle and the days when my app was used, I learned 5 valuable lessons that I think will help all of us improve ourselves as programmers.
 
 #### 1) Write Your Plan On Paper    
 We've been, in one way or another, taught to plan before we code. It's absolutely necessary so that you won't get lost and waste time thinking what feature to add next.
@@ -89,7 +89,7 @@ During the testing, the testers discovered that the AJAX POST request was a bott
 
 ![Turtle speed](/static/img/posts/5-lessons-learned-from-developing-a-school-election-system/turtle.jpg)
 
-Once I learned about the problem, I was somehow panicking in the inside. I don't want this to happen during the actual elections. For me, it was the worst things that could happen to my beloved app. As a friend would put it, *"It's your baby."* My options were to either change something in the code, or move to a more powerful rig. Moving the site to a more powerful was not an option for me. I needed to use Linux and Apache, and the laptops that were more capable has only Windows installed! I decided to modify the code.
+Once I learned about the problem, I was somehow panicking in the inside. I don't want this to happen during the actual elections. For me, it was the worst thing that could happen to my beloved app. As a friend would put it, *"It's your baby."* My options were to either change something in the code, or move to a more powerful rig. Moving the site to a more powerful rig was not an option for me. I needed to use Linux and Apache, and the laptops that were more capable has only Windows installed! I decided to modify the code.
 
 After a few minutes of checking my code, I decided to authenticate the combination directly to the server back end (with some modifications to the back end authenticator, of course) and just let the page reload (which would still show the login form if the combination was wrong). The time it would take to authenticate dropped to 2-5 seconds. That's a 75-90% improvement!
 

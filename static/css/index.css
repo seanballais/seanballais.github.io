@@ -122,11 +122,15 @@ section#recent-posts a > div.post-preview > div.post-preview-text {
     padding: 2%;
 }
 
-section#projects div.item-container > h4,
+section#projects div.item-container > p,
 section#projects div.item-container > h2 {
     padding-left: 3%;
     padding-right: 3%;
     line-height: 1.5;
+}
+
+section#projects div.item-container > p {
+    font-size: 18px;
 }
 
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text {
@@ -160,7 +164,7 @@ section#projects div.item-container > div.item-preview {
 
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h4,
 section#recent-posts a > div.post-preview > div.post-preview-text > h4,
-section#projects div.item-container > h4 {
+section#projects div.item-container > p {
     display: block;
     font-family: Lusitana;
 }
