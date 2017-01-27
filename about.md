@@ -5,21 +5,21 @@ page_title: About Me
 ad: true
 ---
 
-Hi! I’m Sean. I write code in C/C++, Java, Python, HTML5, and CSS3. Okay, I know this is too short for an *About page*. So, I will elaborate more.
+Hi! I’m Sean. I primarily write code in Python and HTML5/CSS3. Okay, I know this is too short for an *About page*. So, I will elaborate more.
 
 First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was [hit by Super Typhoon Haiyan](/blog/remembering-haiyan/) way back in November 8, 2013). I currently study in University of the Philippines Visayas Tacloban College majoring in B.S. Computer Science.
 
 ![Sean Francis N. Ballais speaking during the Japan Super Science Fair 2014](/static/img/about/me.jpg)
 
-As mentioned before, I am a coder, better known as a (hobbyist) programmer. I have experience programming in C/C++, Java, Python, HTML5, CSS3, and JavaScript. But I have dabbled with Visual Basic (including the .Net version), C#, BASIC-256, Perl, PHP, and Ruby before. When I have the time, I might learn Haskell, Go, and Node.JS just to add something to my toolbox. If you have additional technologies you want me to try and learn, just email them to me or comment them below. I’ll appreciate it.
+As mentioned before, I am a coder, better known as a (hobbyist) programmer. My forte is Python, and I have working knowledge with HTML5 and CSS3. I also have experience with C, Java, and PHP as those were the languages used in our classes during high school and recently, college. C++ used to be my go-to language until I discovered Python.
 
-As with many other programmers, I am also political in terms of operating system preference. Honestly, [I prefer working with a UNIX-based system](/blog/why-linux/), most notably Linux or OS X, than working with a Windows machine. Windows just doesn’t give me enough power and flexibility in my opinion. It was a different case way back around early 2011 that I find programming in Windows easier and more preferable. I also advocate the use of open source technologies, because open source is awesome.
+I have dabbled with Ruby, Perl, C#, Visual Basic, Node.JS, and Go before. However, I do not consider myself capable of building applications using any of the said languages as I have only experimented with them for a short amount of time.
+
+As with many other programmers, I am also political in terms of operating system preference. Honestly, [I prefer working with a UNIX-based system](/blog/why-linux/), most notably Linux or OS X, than working with a Windows machine. Windows just doesn’t give me enough power and flexibility in my opinion. It was a different case way back around early 2011 that I find programming in Windows easier and more preferable. I also advocate the use of open source technologies, because open source is amazing.
 
 ![Open source is awesome](/static/img/about/open-source-awesome.png)
 
-Back in late December 2015, I co-founded a startup called, Creatomiv, with my friends, Warren and Ray Mart. We are being mentored by [Francis Plaza](http://francis.ph/), a graduate from MIT. I was the startup’s CTO. Before I left, we were working on a mobile app we hoped to release on March 2016. From what I have been told, they missed that deadline. Currently, I am now working on [a 2D video game project](https://www.youtube.com/v?v=dQw4w9WgXcQ) in a startup, called [Tresmarck](http://tresmarck.com), I co-founded with my cousins. On the side, I also do some freelance work.
-
-Whenever I’m not coding, I would sometimes be seen playing sports and hanging out with friends; reading books or online articles of any topic that may interests me (IFLS, CommitStrip, Phoronix, PCWorld, YCombinator News, and Reddit, anyone?); creating art with GIMP, and/or Blender 3D; listening to podcasts; taking pictures; blogging; keeping up with the latest news; ‘hacking’ technology; or just pondering ideas for the future. Also, I have a [Youtube channel](https://www.youtube.com/channel/UCd8ldjuQgAOIo4uX632IHUA). Currently, I only have uploaded gameplay videos of indie games that I did. However, I am currently working on making educational videos where I teach you CS topics. I will upload them as soon as they are ready.
+Whenever I’m not coding, I would sometimes be seen playing sports and hanging out with friends; reading books or online articles of any topic that may interests me (IFLS, CommitStrip, Phoronix, PCWorld, YCombinator News, and Reddit, anyone?); creating art with GIMP, and/or Blender 3D; listening to podcasts; taking pictures; blogging; keeping up with the latest news; ‘hacking’ technology; or just pondering ideas for the future.
 
 ![A 3D tree I created using Blender](/static/img/about/art-sample.jpg)
 
