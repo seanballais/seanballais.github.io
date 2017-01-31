@@ -18,7 +18,7 @@ In this article, we will be implementing a game-oriented message bus that you ca
 #### What's a Message Bus?
 Applications and games normally are composed of multiple components. Each component is responsible for a task or a feature of the application. Sometimes, a component needs to 'talk' to another component. For example, your input system would need to "tell" your entity system that the player needs to be moved forward because the `W` key has been pressed. In code, you might implement it in this manner.
 
-```
+```cpp
 // Somewhere in the depths of your Input system.
 if (Input.isPressed(Keys.W)) {
     Log.add("Siopao! Siopao! Siopao! Do not do it this way! Siopao! Siopao! Siopao!");
@@ -44,7 +44,7 @@ One cool thing about message buses is that the sender does not even need to know
 #### Implementing a Message Bus
 Time to for the part you have been waiting for - implementing the message bus. The code here is adapted from the `MessageBus` component I have in my engine. We would start with implementing the `Message` class. We can implement it like this:
 
-```
+```cpp
 class Message
 {
 public:
@@ -66,7 +66,7 @@ The `Message` constructor accepts the string parameter `event` that contains the
 
 Next, we will implement the message bus itself where all components are connected to. This is how we can implement the message bus.
 
-```
+```c++
 #include <functional>
 #include <queue>
 #include <vector>
@@ -115,7 +115,7 @@ This function sends all messages to each component. The first message in the que
 
 Next, we would need a base class where all components that uses the message bus will be based on. We will call this base class, `BusNode`.
 
-```
+```cpp
 #include <iostream>
 #include <functional>
 
@@ -157,7 +157,7 @@ Upon construction of a `BusNode` object, it will add its receiver function, `onN
 
 We have now implemented a rudimentary message bus. You can now use this in your project and remix it according to your needs. But to finish this section on a high note, let's create a simple example using those three classes we have built. Don't forget to compile this under C++11 or C++14.
 
-```
+```cpp
 #include <iostream>
 #include <functional>
 #include <queue>
@@ -248,7 +248,7 @@ protected:
 class ComponentA : public BusNode
 {
 public:
-    ComponentA(MessageBus* messageBus) : BusNode(messageBus) {}
+    ComponentA(MessageBus *messageBus) : BusNode(messageBus) {}
 
 private:
     void onNotify(Message message)

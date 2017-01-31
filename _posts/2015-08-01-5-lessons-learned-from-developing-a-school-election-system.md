@@ -73,17 +73,17 @@ To authenticate a user, the app would send an AJAX POST request to the server co
 
 The code of the function that sends the AJAX POST request is like:
 
-
-    var e = {
-        studentID: a,
-        password: b,
-        csrfmiddlewaretoken: getCookie("csrftoken")
-    };
-    $.post("/authenticate/", e, function(a) {
-        $(c).css("visibility", "hidden"), "" !== b && ("success" == a ? ($(c).css("visibility", "hidden"),
-        d.disabled = !1) : ($(c).css("visibility", "visible"), d.disabled = !0));
-    });
-
+```javascript
+var e = {
+    studentID: a,
+    password: b,
+    csrfmiddlewaretoken: getCookie("csrftoken")
+};
+$.post("/authenticate/", e, function(a) {
+    $(c).css("visibility", "hidden"), "" !== b && ("success" == a ? ($(c).css("visibility", "hidden"),
+    d.disabled = !1) : ($(c).css("visibility", "visible"), d.disabled = !0));
+});
+```
 
 During the testing, the testers discovered that the AJAX POST request was a bottleneck in the app. Authentication, which would normally just takes a few seconds, takes more or less 20 seconds to complete. The analogy I could think of regarding the request's speed is like that of a turtle's.
 

@@ -276,3 +276,21 @@ footer div.social-links ul li > a > span.fa-stack {
 footer div.social-links ul li > a > span.fa-stack:hover {
     color: rgb(42, 42, 42);
 }
+
+/* The code in `pre` and `pre code` is based from
+ * http://adis.ca/entry/2011/pretty-code-block-in-css/
+ */
+
+pre {
+    background-color: rgb(39, 40, 34);
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 0.85em;
+    line-height: 140%;
+    overflow-x: auto;
+}
+
+pre code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    word-wrap: normal;
+    white-space: pre;
+}

@@ -15,7 +15,7 @@ css_file: blog.css
             <li>
                 <div class="post-container col-sm-6 col-md-4">
                     <a href="{{ post.url }}">
-                        <div class="post-preview-small" title="{{ post.title }}" alt="Link to the {{ post.title }} article." style="background: radial-gradient(200px, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('/static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover;">
+                        <div class="post-preview-small" title="{{ post.title }}" alt="Link to the {{ post.title }} article." style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('/static/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat center center; background-size: cover; text-shadow: 0px 1px 5px rgb(48, 48, 48);">
                             <div class="post-preview-small-text">
                                 <h2>{{ post.title }}</h2>
                                 <h4>{{ post.date | date: "%B %-d, %Y" }}</h4>

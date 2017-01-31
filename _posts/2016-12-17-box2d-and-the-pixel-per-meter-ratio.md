@@ -29,7 +29,7 @@ It is suggested in the Box2D website that you base your PPM ratio on the size of
 
 You would first need to set a global static class where you would store your constants. You could call the class `Constants` but the name is arbitrary. Store the constant variable `PPM` there and give it a value of your choice. Remember that the value of `PPM` can differ from game to game. My game might have a PPM ratio of 32 while yours might have a ratio of 100. Make sure that `PPM` is a `float` to preserve precision and to prevent the value from being casted into an `int` when you convert to meters or pixels. Box2D works with decimal values in its physics world.
 
-```
+```java
 class Constants {
     ...
     const float PPM = 32f;
@@ -39,7 +39,7 @@ class Constants {
 
 The tricky part deciding where you would convert between pixels to meters. One of the key places where you would want to convert pixels to meters is where you would create the [physics bodies](http://www.iforce2d.net/b2dtut/bodies) and its fixtures. Box2D talks in meters so to modify properties in your bodies and fixtures, you must translate pixels into meters as shown in the code below.
 
-```
+```java
 BodyDef bodyDef = new BodyDef ();
 ...
 // x and y refers to your character's position relative to the screen
@@ -55,7 +55,7 @@ bodyBounds.setAsBox ( ( width / Constants.PPM ) / 2, ( height / Constants.PPM ) 
 
 Another place where you would want to convert meters to pixels is the part where you would set your character's position every time a frame is updated. Box2D bodies would give their positions in meters. You must convert the values into pixels to properly position your characters on-screen. The code will look similar to the one below.
 
-```
+```java
 ...
 character.setXPos ( Math.round ( character.getPlayerPhysicsBody ().getPosition ().x * Constants.PPM ) );
 ...
