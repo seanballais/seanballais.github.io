@@ -23,13 +23,13 @@ def calculateXOR(max_num):
 But then you decided that you can simplify it by using functional programming. You modified the code, and reduced the function body to a single `return` statement.
 
 ```python
-    import operator
-    import functools
+import operator
+import functools
 
-    def calculateXOR(max_num):
-        return functools.reduce(operator.xor, [0 + i for i in range(max_num + 1)])
+def calculateXOR(max_num):
+    return functools.reduce(operator.xor, [0 + i for i in range(max_num + 1)])
 ```
 
-$$x=\frac{1+y}{1+2z^2}$$
+You feel satisfied and are getting ready to submit the assignment. But to your dismay, the professor now requires you to make the time complexity $$O(1)$$ instead of $$O(n)$$.
 
 *Have you used the XOR pattern before? What did you use it for? Got any bit manipulation tricks you would like to share? Want to say something? Let us know in the comments below.*
