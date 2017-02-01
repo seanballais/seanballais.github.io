@@ -7,6 +7,8 @@ h6 {
     font-weight: bold !important;
 }
 
-math {
-    
+.equation {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
