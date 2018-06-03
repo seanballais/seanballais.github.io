@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Comic Strip &#35;3 - When You Add a New Feature Without Enough Tests"
-date:       2018-06-03 21:15
+date:       2018-06-03 22:06
 author:     "Sean Francis N. Ballais"
 permalink:  /blog/comic-strip-3-when-you-add-a-new-feature-without-enough-tests/
 header-img: "img/posts/comic-strip-3-when-you-add-a-new-feature-without-enough-tests/header.jpg"
