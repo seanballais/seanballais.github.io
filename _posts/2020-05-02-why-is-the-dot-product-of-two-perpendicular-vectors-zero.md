@@ -16,3 +16,4 @@ Since last week, I have been teaching myself some linear algebra through Eric Le
  * [http://tutorial.math.lamar.edu/Classes/CalcII/DotProduct.aspx](http://tutorial.math.lamar.edu/Classes/CalcII/DotProduct.aspx)
  * [https://www.youtube.com/watch?v=WNuIhXo39_k](https://www.youtube.com/watch?v=WNuIhXo39_k)
  * [https://www.youtube.com/watch?v=LyGKycYT2v0](https://www.youtube.com/watch?v=LyGKycYT2v0)
+ * [https://www.youtube.com/watch?v=bbBGgHDhmVg](https://www.youtube.com/watch?v=bbBGgHDhmVg)
