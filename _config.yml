@@ -14,7 +14,7 @@ future: true
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-sitemap
