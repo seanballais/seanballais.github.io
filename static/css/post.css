@@ -6,3 +6,8 @@ h5,
 h6 {
     font-weight: bold !important;
 }
+
+article > section#description > div#post-content {
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -10,7 +10,9 @@ css_file: post.css
         <h4>Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y %I:%M %p" }}</h4>
     </header>
     <section id="description">
-        {{ content }}
+        <div id="post-content">
+            {{ content }}
+        </div>
         <ul class="pager">
             {% if page.previous.url %}
             <li class="previous">
