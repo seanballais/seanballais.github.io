@@ -6,7 +6,7 @@ author:     "Sean Francis N. Ballais"
 permalink:  /blog/settling-with-pixel-art-for-my-game/
 header-img: "img/posts/settling-with-pixel-art-for-my-game/header.png"
 comments: true
-description: ""
+description: "I'm working on 2D game solo. Drawing art assets with a cartoon style would take too much time for me. I have to work on other game aspect as well! What do I do?"
 ---
 
 One of the most important aspects of any game is the graphics. It is the medium in which the game communicates the story, the actions, and the events to the player. Most games typically use a graphical style, as opposed to text style, which old games like Zork use. The game I am currently working on, and is in pre-production, is no exception. A graphical style easily allows anyone to immerse themselves into the game world, and may more easily communicate about the world to the player than text-style games. As they say, a picture is worth a thousand words. However, a graphical style comes with its own caveats. You can't slap any art asset into the game. It must fit well with the entire theme of the game. Not only that, but games tend to have a lot of art assets, from static objects to spritesheets. And that amount is a problem for me when it comes to making my game.
