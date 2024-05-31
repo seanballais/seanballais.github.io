@@ -8,8 +8,7 @@ ul li {
 }
 
 section#recent-posts,
-section#posts,
-section#projects {
+section#posts {
     max-width: 1366px;
 }
 
@@ -19,7 +18,7 @@ section#recent-posts {
 }
 
 section#quick-info,
-section#youtube-announcement {
+section#works {
     font-family: Lusitana;
     font-size: 1.25em;
 
@@ -31,37 +30,29 @@ section#quick-info {
     background-color: rgb(55, 55, 55);
 }
 
-section#youtube-announcement {
+section#works {
     color: #000;
 }
 
 section#quick-info div#info-container,
-section#youtube-announcement div#info-content {
+section#works div#info-content {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-section#quick-info div#info-container a {
+section#quick-info div#info-container a,
+section#works div#info-content a {
     transition: color 0.5s ease;
     color: rgb(104, 170, 228);
 }
 
-section#quick-info div#info-container a:hover {
+section#quick-info div#info-container a:hover,
+section#works div#info-content a:hover {
     color: rgb(64, 122, 173);
 }
 
-section#youtube-announcement div#info-content a {
-    transition: color 0.5s ease;
-    color: rgb(171, 225, 255);
-}
-
-section#youtube-announcement div#info-content a:hover {
-    color: rgb(135, 209, 250);
-}
-
 section#posts > h3,
-section#posts > h4,
-section#projects > h3 {
+section#posts > h4 {
     margin-top: 2%;
     margin-bottom: 1%;
 
@@ -70,25 +61,15 @@ section#projects > h3 {
     text-align: center;
 }
 
-section#projects > div#view-more > h4 {
-    font-family: Lusitana;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 2%;
-}
-
-section#posts > h4,
-section#projects div#view-more > h4 {
+section#posts > h4 {
     color: #416396;
 }
 
-section#posts > h4:hover,
-section#projects div#view-more > h4:hover {
+section#posts > h4:hover {
     color: #5785c9;
 }
 
-section#posts div.post-container > a,
-section#projects div.item-container > div.item-preview {
+section#posts div.post-container > a {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 3%;
@@ -107,8 +88,7 @@ section#recent-posts a > div.post-preview {
 }
 
 section#recent-posts a > div.post-preview,
-section#posts div.post-container > a > div.post-preview-small,
-section#projects div.item-container > div.item-preview {
+section#posts div.post-container > a > div.post-preview-small {
     padding-top: 20%;
 }
 
@@ -122,25 +102,13 @@ section#recent-posts a > div.post-preview > div.post-preview-text {
     padding: 2%;
 }
 
-section#projects div.item-container > p,
-section#projects div.item-container > h2 {
-    padding-left: 3%;
-    padding-right: 3%;
-    line-height: 1.5;
-}
-
-section#projects div.item-container > p {
-    font-size: 18px;
-}
-
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text {
     text-align: center;
     padding: 5%;
 }
 
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2,
-section#recent-posts a > div.post-preview > div.post-preview-text > h2,
-section#projects div.item-container > h2 {
+section#recent-posts a > div.post-preview > div.post-preview-text > h2 {
     display: block;
     font-family: Raleway;
     font-weight: 600;
@@ -149,8 +117,7 @@ section#projects div.item-container > h2 {
     text-overflow: ellipsis;
 }
 
-section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2,
-section#projects div.item-container > h2 {
+section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h2 {
     font-size: 1.5em;
 }
 
@@ -158,24 +125,19 @@ section#recent-posts a > div.post-preview > div.post-preview-text > h2 {
     font-size: 2em;
 }
 
-section#projects div.item-container > div.item-preview {
-    height: 200px;
-}
-
 section#posts div.post-container > a > div.post-preview-small > div.post-preview-small-text > h4,
-section#recent-posts a > div.post-preview > div.post-preview-text > h4,
-section#projects div.item-container > p {
+section#recent-posts a > div.post-preview > div.post-preview-text > h4 {
     display: block;
     font-family: Lusitana;
 }
 
-section#youtube-announcement > div#info-content h2 {
+section#works > div#info-content h2 {
     font-family: Raleway;
     font-weight: bold;
 }
 
 section#quick-info p,
-section#youtube-announcement > div#info-content p {
+section#works > div#info-content p {
     display: inline-block;
     font-size: 1.25em;
     line-height: 1.5;
@@ -196,16 +158,16 @@ hr.index-divider {
     border-color: rgb(218, 218, 218);
 }
 
-section#youtube-announcement {
-    background-color: rgb(50, 106, 215);
+section#works {
+    background-color: rgb(43, 49, 63);
     padding: 2%;
 }
 
-section#youtube-announcement p,
-section#youtube-announcement h2 {
+section#works p,
+section#works h2 {
     color: #fff;
 }
 
-section#youtube-announcement div#info-content div#content-text h2 {
+section#works div#info-content div#content-text h2 {
     margin: 0;
 }
