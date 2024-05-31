@@ -1,7 +1,15 @@
-section#works div.project-tags {
+div#works div.project-tags {
     margin-bottom: 10px;
 }
 
-section#works div:has(video) {
+div#works div:has(video) {
     margin-bottom: 10px;
+}
+
+div#works section .title {
+    text-align: center;
+}
+
+div#works section h4 {
+    font-size: 1em;
 }
