@@ -1,0 +1,7 @@
+section#works div.project-tags {
+    margin-bottom: 10px;
+}
+
+section#works div:has(video) {
+    margin-bottom: 10px;
+}
