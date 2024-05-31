@@ -1,8 +1,8 @@
 title: Sean Ballais
-email: sfballais123@gmail.com
+email: sean@seanballais.com
 description: "The personal website and blog of Sean Ballais, a programmer and CS student from Tacloban City, Philippines."
 baseurl: ""
-url: "http://seanballais.github.io"
+url: "http://seanballais.com"
 twitter_username: seanballais
 github_username:  seanballais
 facebook_username: seanballais
@@ -16,8 +16,6 @@ future: true
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-github-metadata
   - jekyll-sitemap
-  - github-pages
 exclude:
   - raw

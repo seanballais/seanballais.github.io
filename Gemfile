@@ -1,11 +1,9 @@
 source "https://rubygems.org"
-ruby "2.7.0"
+ruby "~> 3"
 
-gem "jekyll", ">= 3.6.3"
-
-gem "github-pages"
-gem "jekyll-github-metadata"
+gem "jekyll", "~> 4"
 
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
+   gem "jekyll-feed", "~> 0.17"
+   gem "jekyll-sitemap", "~> 1.4"
 end
