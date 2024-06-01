@@ -5,25 +5,21 @@ page_title: About Me
 ad: true
 ---
 
-Hi! I’m Sean. I primarily write code in Python and HTML5/CSS3. Okay, I know this is too short for an *About page*. So, I will elaborate more.
+<img src="{{ site.url }}/static/img/about/me.jpg" alt="A photo of me." width="300px" style="padding: 0; padding-right: 15px; padding-bottom: 15px; float: left">👋 Hi, I’m Sean! I’m a software developer from Tacloban City, Philippines with a CS degree from the University of the Philippines Tacloban College.
 
-First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was [hit by Super Typhoon Haiyan](/blog/remembering-haiyan/) way back in November 8, 2013). I currently study in University of the Philippines Visayas Tacloban College majoring in B.S. Computer Science.
+🚀 I'm a passionate and versatile software developer who has been programming for 10+ years, with more than 2 years of those as a professional. I've worked with different tech and built apps for the desktop, web, and mobile. I have some experience dealing with clients, and I have taught programming. I am currently co-leading a local developer community. I'm looking forward to moving towards app development, game dev, and graphics dev from web dev.
 
-![Sean Francis N. Ballais speaking during the Japan Super Science Fair 2014](/static/img/about/me.jpg)
+⚡ I consider Rust, Python, and C++ as my main tech stack. However, I've already worked, to different degrees, with Java, Go, C, HTML/CSS, C#, JavaScript, Bash, PowerShell, SQL, SDL2, Dear ImGui, Qt, WinUI 3, Jinja, GitHub Actions, CircleCI, InnoSetup, Docker, PostgreSQL, Redis, Win32 API, TensorFlow, and Jupyter. I've also dabbled with Dart, Flutter, egui, OpenGL, KMM, Vulkan, and MQTT.
 
-As mentioned before, I am a coder, better known as a (hobbyist) programmer. My forte is Python, and I have working knowledge with HTML5 and CSS3. I also have experience with C, Java, and PHP as those were the languages used in our classes during high school and recently, college. C++ used to be my go-to language until I discovered Python.
+💻 For many years, especially during my high school and college days, I would have only preferred working in a Linux environment, particularly Ubuntu or any Ubuntu-based distro. However, recently perhaps due to maturity, I've made the decision to work in Windows. I may be a developer by trade. But, I also do art, some video editing, graphics design, and gaming. I believe Windows is the one that lets me do that well without much temporal and financial cost, at the time, until I am able to purchase a Mac. So, I eventually learned how to develop in a Windows environment as well.
 
-I have dabbled with Ruby, Perl, C#, Visual Basic, Node.JS, and Go before. However, I do not consider myself capable of building applications using any of the said languages as I have only experimented with them for a short amount of time.
+🗣️ I also speak _human_ languages. I'm not a caveman that just goes with unga-bunga. Haha. I can speak Waray/Binisaya, English, Filipino, and some Bisaya (I would use some English words to fill up parts of Bisaya that I don't know, but please continue speaking in Bisaya whenever I speak Bisaya to you too. I'm trying to learn.). As for writing, I do tend to write more in English.
 
-As with many other programmers, I am also political in terms of operating system preference. Honestly, [I prefer working with a UNIX-based system](/blog/why-linux/), most notably Linux or OS X, than working with a Windows machine. Windows just doesn’t give me enough power and flexibility in my opinion. It was a different case way back around early 2011 that I find programming in Windows easier and more preferable. I also advocate the use of open source technologies, because open source is amazing.
+<img src="{{ site.url }}/static/img/about/dev8-post-ops.jpg" alt="Post-event photo ops during Dev8 Tech Talks held last February 18, 2023." style="padding-bottom: 0;" />
 
-![Open source is awesome](/static/img/about/open-source-awesome.png)
+<p class="text-center"><em>Post-event photo ops during Dev8 Tech Talks held last February 18, 2023.</em></p>
 
-Whenever I’m not coding, I would sometimes be seen playing sports and hanging out with friends; reading books or online articles of any topic that may interests me (IFLS, CommitStrip, Phoronix, PCWorld, YCombinator News, and Reddit, anyone?); creating art with GIMP, and/or Blender 3D; listening to podcasts; taking pictures; blogging; keeping up with the latest news; ‘hacking’ technology; or just pondering ideas for the future.
-
-![A 3D tree I created using Blender](/static/img/about/art-sample.jpg)
-
-If, for reasons I cannot debug, you want track my bits and bytes, you can trace me back to the Twitters of the interwebs at [@seanballais](https://twitter.com/seanballais). I also have a professional profile set up over at [LinkedIn](https://www.linkedin.com/in/seanballais). In conjunction with my LinkedIn profile, I also have a [Stack Overflow Careers](http://careers.stackoverflow.com/seanballais) profile. You can also find me on [Reddit](https://www.reddit.com/user/seanballais). If you would like to contact me through my email, please use the form [here](/contact).
+🫡 Volunteering is also a part of me. I'm currently co-leading a local developer community in my area called [Dev8](https://facebook.com/dev8community), which I also co-founded. Through Dev8, we want to improve the advance the tech scene of our region, Eastern Visayas. We've already hosted two conferences, Google I/O Extended Leyte 2019 (August 17, 2019) and our own Dev8 Tech Talks (February 18, 2023). We also regularly hold meetups once a month, and we have a [podcast](https://open.spotify.com/show/2pVU8Gb6iDwmCiD3vACw3u?si=10aa6ba8181f48c3) where we release episodes once a month. I do a lot for Dev8, but I also help out [outside of Dev8](/works).
 
 ### What's this website about?
 
