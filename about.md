@@ -7,7 +7,7 @@ ad: true
 
 <img src="{{ site.url }}/static/img/about/me.jpg" alt="A photo of me." width="300px" style="padding: 0; padding-right: 15px; padding-bottom: 15px; float: left">👋 Hi, I’m Sean! I’m a software developer from Tacloban City, Philippines with a CS degree from the University of the Philippines Tacloban College.
 
-🚀 I'm a passionate and versatile software developer who has been programming for 10+ years, with more than 2 years of those as a professional. I've worked with different tech and built apps for the desktop, web, and mobile. I have some experience dealing with clients, and I have taught programming. I am currently co-leading a local developer community. I'm looking forward to moving towards app development, game dev, and graphics dev from web dev.
+🚀 I'm a passionate and versatile software developer who has been programming for 10+ years, with around 2 years of those as a professional. I've worked with different tech and built apps for the desktop, web, and mobile. I have some experience dealing with clients, and I have taught programming. I am currently co-leading a local developer community. I'm looking forward to moving towards app development, game dev, and graphics dev from web dev.
 
 ⚡ I consider Rust, Python, and C++ as my main tech stack. However, I've already worked, to different degrees, with Java, Go, C, HTML/CSS, C#, JavaScript, Bash, PowerShell, SQL, SDL2, Dear ImGui, Qt, WinUI 3, Jinja, GitHub Actions, CircleCI, InnoSetup, Docker, PostgreSQL, Redis, Win32 API, TensorFlow, and Jupyter. I've also dabbled with Dart, Flutter, egui, OpenGL, KMM, Vulkan, and MQTT.
 
